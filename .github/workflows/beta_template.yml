@@ -1,0 +1,38 @@
+name: Generate Beta Template
+
+on:
+  workflow_dispatch:            # 允许手动触发
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. 检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      # 2. 设置 Python 环境
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          
+      # 3. 安装依赖
+      - name: Install dependencies
+        run: |
+          pip install pypinyin
+          
+      # 4. 执行 Python 脚本
+      - name: Run beta_template.py
+        run: python3 beta_template.py
+          
+      # 5. 提交结果
+      - name: Commit output file
+        if: ${{ success() }}
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add output.txt
+          git commit -m "Auto-generated output [skip ci]"
+          git push
