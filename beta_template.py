@@ -88,6 +88,10 @@ if __name__ == "__main__":
         response.raise_for_status()
         return response.json()
 
+    def load_json(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+
     alldata = load_json_from_url("https://beta.assets.gi-tcg.guyutongxue.site/api/v3/data")
 
 
@@ -99,8 +103,27 @@ if __name__ == "__main__":
     db = generate_namemap(characters, actions, entities)
 
     # 保存到文件
-    with open("nameMap.json", "w", encoding="utf-8") as f:
+    baseFileName = "map/base-NameMap.json"
+    with open(baseFileName, "w", encoding="utf-8") as f:
         json.dump(db, f, ensure_ascii=False, indent=2)
 
-    print("✅ 已生成：nameMap.json")
+    print("✅ 已生成：" + baseFileName)
+
+    prod_data = load_json("map/NameMap.json")
+    # 构建 custom id->aliases 映射
+    prod_aliases = {str(item["id"]): set(item.get("aliases", [])) for item in prod_data}
+
+    for entry in db:
+        cid = str(entry["id"])
+        prod_alias = prod_aliases.get(cid, set())
+        db_alias = set(entry.get("aliases", []))
+        # 合并并去重
+        entry["aliases"] = list(prod_alias | db_alias)
+
+    wipFileName = "map/NameMap.wip.json"
+    with open(wipFileName, "w", encoding="utf-8") as f:
+        json.dump(db, f, ensure_ascii=False, indent=2)
+
+    print("✅ 已合并线上别名，生成文件：" + wipFileName)
+
 
