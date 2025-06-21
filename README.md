@@ -4,27 +4,22 @@
 
 ## 别名维护
 
-`map`文件夹下有 2 个你需要关注的文件：
-- `NameMap.json`，目前正在使用的别名表
-- `NameMap.wip.json`，第1步运行Python脚本得到的带有新卡的别名表，已合并使用中的别名表。
+别名文件在`map`文件夹下，`NameMap.json` 是 bot 读取的版本。
 
-你需要做的是：
+### 修改别名
 
-1. 如果你是增加beta版本的新卡，请先生成新模板。否则跳过此步。
+直接在`NameMap.json`里修改对应卡牌的aliases属性。
 
+### 增加beta版本的新卡
+
+请先生成带有新卡的模板。
 ```
 python3 beta_template.py
 ```
 
 （需要pip安装package pypinyin）
 
-
-2. 修改`NameMap.wip.json`，具体地，修改各个卡牌的aliases即可。
-
-3. 比对`NameMap.json` 和 `NameMap.wip.json`，看看是否符合你的预期。
-
-（如果你很熟练，可以直接改`NameMap.json`）
-
+会生成`NameMap.wip.json`，请和`NameMap.json`比对，将新增的新卡部分修改别名，加入到`NameMap.json`里。
 
 
 ## 如需帮助

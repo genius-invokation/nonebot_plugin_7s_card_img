@@ -109,21 +109,27 @@ if __name__ == "__main__":
 
     print("✅ 已生成：" + baseFileName)
 
+    # 以 map/NameMap.json 为基础，补充 db 中不存在的 id
     prod_data = load_json("map/NameMap.json")
-    # 构建 custom id->aliases 映射
-    prod_aliases = {str(item["id"]): set(item.get("aliases", [])) for item in prod_data}
+    prod_ids = {str(item.get("id")) for item in prod_data if "id" in item}
 
-    for entry in db:
-        cid = str(entry["id"])
-        prod_alias = prod_aliases.get(cid, set())
-        db_alias = set(entry.get("aliases", []))
-        # 合并并去重
-        entry["aliases"] = list(prod_alias | db_alias)
+    #排除 id 列表（
+    exclude_ids = [
+        332047 # 火与战争（test）
+                   ]
+
+    # 只添加 db 中 prod_data 没有的 id，且排除 exclude_ids 中的 id
+    new_entries = [
+        entry for entry in db
+        if str(entry.get("id")) not in prod_ids and "id" in entry and entry.get("id") not in exclude_ids
+    ]
+
+    merged = prod_data + new_entries
 
     wipFileName = "map/NameMap.wip.json"
     with open(wipFileName, "w", encoding="utf-8") as f:
-        json.dump(db, f, ensure_ascii=False, indent=2)
+        json.dump(merged, f, ensure_ascii=False, indent=2)
 
-    print("✅ 已合并线上别名，生成文件：" + wipFileName)
+    print("✅ 已补充新id，生成文件：" + wipFileName)
 
 
