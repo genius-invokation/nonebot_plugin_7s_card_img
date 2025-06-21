@@ -21,7 +21,7 @@ jobs:
       # 3. 安装依赖
       - name: Install dependencies
         run: |
-          pip install pypinyin
+          pip install pypinyin requests
           
       # 4. 执行 Python 脚本
       - name: Run beta_template.py
@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add output.txt
-          git commit -m "Auto-generated output [skip ci]"
+          git add map
+          git commit -m "Github Action - generated beta namemap [skip ci]"
           git push
