@@ -6,11 +6,16 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
     
     steps:
       # 1. 检出仓库代码
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
         
       # 2. 设置 Python 环境
       - name: Set up Python 3.12
