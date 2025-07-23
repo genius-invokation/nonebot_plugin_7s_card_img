@@ -8542,7 +8542,8 @@
     "pinyin": "qixiangtiankaibuwuzhang",
     "aliases": [
       "qxtkbwz",
-      "鹿野院平藏天赋"
+      "鹿野院平藏天赋",
+      "小鹿天赋"
     ],
     "child": [
       {
@@ -8569,7 +8570,9 @@
     "englishName": "Unfinished Reverie",
     "pinyin": "weijingdexiasi",
     "aliases": [
-      "wjdxs"
+      "wjdxs",
+      "燃烧套",
+      "燃烧头"
     ],
     "child": []
   },
@@ -8579,14 +8582,11 @@
     "englishName": "Harmonious Symphony Prelude",
     "pinyin": "xielvjiaoxiangdeqianzou",
     "aliases": [
-      "xljxdqz"
+      "xljxdqz",
+      "生命之契套",
+      "契套"
     ],
-    "child": [
-      {
-        "id": 122,
-        "name": "生命之契"
-      }
-    ]
+    "child": []
   },
   {
     "id": 321029,
@@ -8614,7 +8614,11 @@
     "englishName": "Forest Blessing",
     "pinyin": "senlindezhufu",
     "aliases": [
-      "sldzf"
+      "sldzf",
+      "折纸",
+      "折纸飞鼠",
+      "折纸胖胖鼠",
+      "跳跳纸蛙"
     ],
     "child": []
   },
@@ -8624,7 +8628,9 @@
     "englishName": "Gift of the Goddess of Prophecy",
     "pinyin": "yuyannvshendeliwu",
     "aliases": [
-      "yynsdlw"
+      "yynsdlw",
+      "积木",
+      "积木小人"
     ],
     "child": []
   },
@@ -8634,7 +8640,9 @@
     "englishName": "Harvest Time",
     "pinyin": "shouhuoshijian",
     "aliases": [
-      "shsj"
+      "shsj",
+      "种菜",
+      "收菜"
     ],
     "child": []
   },
@@ -8644,7 +8652,7 @@
     "englishName": "Awesome, Bro",
     "pinyin": "henbang，gemen。",
     "aliases": [
-      "hb，gm。"
+      "hbgm"
     ],
     "child": []
   }
