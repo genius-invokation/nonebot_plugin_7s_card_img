@@ -8518,5 +8518,133 @@
       "frzc"
     ],
     "child": []
+  },
+  {
+    "id": 215121,
+    "name": "舞袂翩兮扬玉霓",
+    "englishName": "Dance Vestments Billow Like Rainbow Jade",
+    "pinyin": "wumeipianxiyangyuni",
+    "aliases": [
+      "wmpxyyn",
+      "蓝砚天赋"
+    ],
+    "child": [
+      {
+        "id": 115121,
+        "name": "凤缕护盾"
+      }
+    ]
+  },
+  {
+    "id": 215131,
+    "name": "奇想天开捕物帐",
+    "englishName": "Curious Casefiles",
+    "pinyin": "qixiangtiankaibuwuzhang",
+    "aliases": [
+      "qxtkbwz",
+      "鹿野院平藏天赋"
+    ],
+    "child": [
+      {
+        "id": 115132,
+        "name": "变格"
+      }
+    ]
+  },
+  {
+    "id": 227041,
+    "name": "饕噬尽吞",
+    "englishName": "Ravenous Devour",
+    "pinyin": "taoshijintun",
+    "aliases": [
+      "tsjt",
+      "贪食匿叶龙山王天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 312035,
+    "name": "未竟的遐思",
+    "englishName": "Unfinished Reverie",
+    "pinyin": "weijingdexiasi",
+    "aliases": [
+      "wjdxs"
+    ],
+    "child": []
+  },
+  {
+    "id": 312036,
+    "name": "谐律交响的前奏",
+    "englishName": "Harmonious Symphony Prelude",
+    "pinyin": "xielvjiaoxiangdeqianzou",
+    "aliases": [
+      "xljxdqz"
+    ],
+    "child": [
+      {
+        "id": 122,
+        "name": "生命之契"
+      }
+    ]
+  },
+  {
+    "id": 321029,
+    "name": "墨色酒馆",
+    "englishName": "Calligraphy Tavern",
+    "pinyin": "mosejiuguan",
+    "aliases": [
+      "msjg"
+    ],
+    "child": []
+  },
+  {
+    "id": 321030,
+    "name": "星轨王城",
+    "englishName": "Constellation Metropole",
+    "pinyin": "xingguiwangcheng",
+    "aliases": [
+      "xgwc"
+    ],
+    "child": []
+  },
+  {
+    "id": 322029,
+    "name": "森林的祝福",
+    "englishName": "Forest Blessing",
+    "pinyin": "senlindezhufu",
+    "aliases": [
+      "sldzf"
+    ],
+    "child": []
+  },
+  {
+    "id": 322030,
+    "name": "预言女神的礼物",
+    "englishName": "Gift of the Goddess of Prophecy",
+    "pinyin": "yuyannvshendeliwu",
+    "aliases": [
+      "yynsdlw"
+    ],
+    "child": []
+  },
+  {
+    "id": 332049,
+    "name": "收获时间",
+    "englishName": "Harvest Time",
+    "pinyin": "shouhuoshijian",
+    "aliases": [
+      "shsj"
+    ],
+    "child": []
+  },
+  {
+    "id": 332050,
+    "name": "很棒，哥们。",
+    "englishName": "Awesome, Bro",
+    "pinyin": "henbang，gemen。",
+    "aliases": [
+      "hb，gm。"
+    ],
+    "child": []
   }
 ]
