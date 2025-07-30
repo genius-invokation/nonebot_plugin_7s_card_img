@@ -1905,6 +1905,65 @@
     ]
   },
   {
+    "id": 1414,
+    "name": "伊安珊",
+    "englishName": "Iansan",
+    "pinyin": "yianshan",
+    "aliases": [
+      "yas"
+    ],
+    "child": [
+      {
+        "id": 14141,
+        "name": "负重锥击"
+      },
+      {
+        "id": 14142,
+        "name": "电掣雷驰"
+      },
+      {
+        "id": 114141,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 114141,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 170,
+        "name": "敏捷切换"
+      },
+      {
+        "id": 14143,
+        "name": "力的三原理"
+      },
+      {
+        "id": 114141,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 114142,
+        "name": "动能标示"
+      },
+      {
+        "id": 113151,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 113151,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 14144,
+        "name": "热量均衡计划"
+      },
+      {
+        "id": 114141,
+        "name": "夜魂加持"
+      }
+    ]
+  },
+  {
     "id": 1501,
     "name": "砂糖",
     "englishName": "Sucrose",
@@ -2304,6 +2363,37 @@
       {
         "id": 115132,
         "name": "变格"
+      }
+    ]
+  },
+  {
+    "id": 1514,
+    "name": "梦见月瑞希",
+    "englishName": "Yumemizuki Mizuki",
+    "pinyin": "mengjianyueruixi",
+    "aliases": [
+      "mjyrx"
+    ],
+    "child": [
+      {
+        "id": 15141,
+        "name": "梦我梦心"
+      },
+      {
+        "id": 15142,
+        "name": "秋沙歌枕巡礼"
+      },
+      {
+        "id": 115141,
+        "name": "梦浮"
+      },
+      {
+        "id": 15143,
+        "name": "安乐秘汤疗法"
+      },
+      {
+        "id": 115143,
+        "name": "小貘"
       }
     ]
   },
@@ -3562,6 +3652,41 @@
       {
         "id": 123041,
         "name": "重甲蟹壳"
+      }
+    ]
+  },
+  {
+    "id": 2305,
+    "name": "蚀灭的源焰之主",
+    "englishName": "Lord of Eroded Primal Fire",
+    "pinyin": "shimiedeyuanyanzhizhu",
+    "aliases": [
+      "smdyyzz"
+    ],
+    "child": [
+      {
+        "id": 23051,
+        "name": "虚界玄爪"
+      },
+      {
+        "id": 23052,
+        "name": "蚀灭火羽"
+      },
+      {
+        "id": 23053,
+        "name": "斫劫源焰"
+      },
+      {
+        "id": 123051,
+        "name": "忿恨"
+      },
+      {
+        "id": 23054,
+        "name": "忿恨"
+      },
+      {
+        "id": 123051,
+        "name": "忿恨"
       }
     ]
   },
@@ -4928,6 +5053,30 @@
     "child": []
   },
   {
+    "id": 214141,
+    "name": "「沃陆之邦」的训教",
+    "englishName": "Teachings of the Collective of Plenty",
+    "pinyin": "「woluzhibang」dexunjiao",
+    "aliases": [
+      "「wlzb」dxj",
+      "伊安珊天赋"
+    ],
+    "child": [
+      {
+        "id": 114142,
+        "name": "动能标示"
+      },
+      {
+        "id": 113151,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 113151,
+        "name": "夜魂加持"
+      }
+    ]
+  },
+  {
     "id": 215011,
     "name": "混元熵增论",
     "englishName": "Chaotic Entropy",
@@ -5113,6 +5262,17 @@
         "name": "变格"
       }
     ]
+  },
+  {
+    "id": 215141,
+    "name": "缠忆君影梦相见",
+    "englishName": "Your Echo I Meet in Dreams",
+    "pinyin": "chanyijunyingmengxiangjian",
+    "aliases": [
+      "cyjymxj",
+      "梦见月瑞希天赋"
+    ],
+    "child": []
   },
   {
     "id": 216011,
@@ -5642,6 +5802,17 @@
     "child": []
   },
   {
+    "id": 223051,
+    "name": "罔极盛怒",
+    "englishName": "Undying Fury",
+    "pinyin": "wangjishengnu",
+    "aliases": [
+      "wjsn",
+      "蚀灭的源焰之主天赋"
+    ],
+    "child": []
+  },
+  {
     "id": 224011,
     "name": "汲能棱晶",
     "englishName": "Absorbing Prism",
@@ -6076,6 +6247,16 @@
     "pinyin": "jieze",
     "aliases": [
       "jz"
+    ],
+    "child": []
+  },
+  {
+    "id": 311208,
+    "name": "若水",
+    "englishName": "Aqua Simulacra",
+    "pinyin": "ruoshui",
+    "aliases": [
+      "rs"
     ],
     "child": []
   },
@@ -6716,6 +6897,46 @@
     "pinyin": "yixianglingluodeyuanwu",
     "aliases": [
       "yxlldyw"
+    ],
+    "child": [
+      {
+        "id": 122,
+        "name": "生命之契"
+      }
+    ]
+  },
+  {
+    "id": 312037,
+    "name": "宗室面具",
+    "englishName": "Royal Masque",
+    "pinyin": "zongshimianju",
+    "aliases": [
+      "zsmj"
+    ],
+    "child": []
+  },
+  {
+    "id": 312038,
+    "name": "未竟的遐思",
+    "englishName": "Unfinished Reverie",
+    "pinyin": "weijingdexiasi",
+    "aliases": [
+      "wjdxs"
+    ],
+    "child": [
+      {
+        "id": 115,
+        "name": "燃烧烈焰"
+      }
+    ]
+  },
+  {
+    "id": 312039,
+    "name": "谐律交响的前奏",
+    "englishName": "Harmonious Symphony Prelude",
+    "pinyin": "xielvjiaoxiangdeqianzou",
+    "aliases": [
+      "xljxdqz"
     ],
     "child": [
       {
@@ -8521,6 +8742,64 @@
     "pinyin": "henbang，gemen。",
     "aliases": [
       "hb，gm。"
+    ],
+    "child": []
+  },
+  {
+    "id": 332051,
+    "name": "「邪龙」的苏醒",
+    "englishName": "Fell Dragon's Awakening",
+    "pinyin": "「xielong」desuxing",
+    "aliases": [
+      "「xl」dsx"
+    ],
+    "child": [
+      {
+        "id": 303245,
+        "name": "「邪龙」"
+      },
+      {
+        "id": 303245,
+        "name": "「邪龙」"
+      },
+      {
+        "id": 303245,
+        "name": "「邪龙」"
+      }
+    ]
+  },
+  {
+    "id": 332052,
+    "name": "旁白的注脚",
+    "englishName": "Narration Footnotes",
+    "pinyin": "pangbaidezhujiao",
+    "aliases": [
+      "pbdzj"
+    ],
+    "child": [
+      {
+        "id": 301028,
+        "name": "积木小人"
+      }
+    ]
+  },
+  {
+    "id": 332054,
+    "name": "「魔女M的祝福」",
+    "englishName": "\"A Blessing From 'M'\"",
+    "pinyin": "「monvMdezhufu」",
+    "aliases": [
+      "「mnMdzf」"
+    ],
+    "child": []
+  },
+  {
+    "id": 332055,
+    "name": "「狂欢节奏」",
+    "englishName": "\"Revelrous Beats\"",
+    "pinyin": "「kuanghuanjiezou」",
+    "aliases": [
+      "「khjz」"
     ],
     "child": []
   },
