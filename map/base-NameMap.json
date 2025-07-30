@@ -2259,12 +2259,20 @@
         "name": "凤缕护盾"
       },
       {
+        "id": 169,
+        "name": "高效切换"
+      },
+      {
         "id": 115121,
         "name": "凤缕护盾"
       },
       {
         "id": 15123,
         "name": "鹍弦踏月出"
+      },
+      {
+        "id": 115121,
+        "name": "凤缕护盾"
       }
     ]
   },
@@ -4719,6 +4727,10 @@
       {
         "id": 122,
         "name": "生命之契"
+      },
+      {
+        "id": 122,
+        "name": "生命之契"
       }
     ]
   },
@@ -5875,7 +5887,7 @@
   {
     "id": 227041,
     "name": "饕噬尽吞",
-    "englishName": "Ravenous Devour",
+    "englishName": "The All-Devourer",
     "pinyin": "taoshijintun",
     "aliases": [
       "tsjt",
@@ -6689,21 +6701,21 @@
   },
   {
     "id": 312035,
-    "name": "未竟的遐思",
-    "englishName": "Unfinished Reverie",
-    "pinyin": "weijingdexiasi",
+    "name": "失冕的宝冠",
+    "englishName": "Crownless Crown",
+    "pinyin": "shimiandebaoguan",
     "aliases": [
-      "wjdxs"
+      "smdbg"
     ],
     "child": []
   },
   {
     "id": 312036,
-    "name": "谐律交响的前奏",
-    "englishName": "Harmonious Symphony Prelude",
-    "pinyin": "xielvjiaoxiangdeqianzou",
+    "name": "异想零落的圆舞",
+    "englishName": "Whimsical Dance of the Withered",
+    "pinyin": "yixianglingluodeyuanwu",
     "aliases": [
-      "xljxdqz"
+      "yxlldyw"
     ],
     "child": [
       {
@@ -8479,16 +8491,6 @@
     "pinyin": "feixingduichuji！",
     "aliases": [
       "fxdcj！"
-    ],
-    "child": []
-  },
-  {
-    "id": 332047,
-    "name": "火与战争（test）",
-    "englishName": "Fire and War (test)",
-    "pinyin": "huoyuzhanzheng（test）",
-    "aliases": [
-      "hyzz（test）"
     ],
     "child": []
   },
