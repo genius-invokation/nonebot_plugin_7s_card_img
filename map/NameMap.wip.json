@@ -8629,8 +8629,7 @@
     "pinyin": "yuyannvshendeliwu",
     "aliases": [
       "yynsdlw",
-      "积木",
-      "积木小人"
+      "积木"
     ],
     "child": []
   },
@@ -8674,14 +8673,6 @@
         "name": "电掣雷驰"
       },
       {
-        "id": 114141,
-        "name": "夜魂加持"
-      },
-      {
-        "id": 114141,
-        "name": "夜魂加持"
-      },
-      {
         "id": 170,
         "name": "敏捷切换"
       },
@@ -8690,28 +8681,12 @@
         "name": "力的三原理"
       },
       {
-        "id": 114141,
-        "name": "夜魂加持"
-      },
-      {
         "id": 114142,
         "name": "动能标示"
       },
       {
-        "id": 113151,
-        "name": "夜魂加持"
-      },
-      {
-        "id": 113151,
-        "name": "夜魂加持"
-      },
-      {
         "id": 14144,
         "name": "热量均衡计划"
-      },
-      {
-        "id": 114141,
-        "name": "夜魂加持"
       }
     ]
   },
@@ -8721,7 +8696,8 @@
     "englishName": "Yumemizuki Mizuki",
     "pinyin": "mengjianyueruixi",
     "aliases": [
-      "mjyrx"
+      "mjyrx",
+      "瑞希"
     ],
     "child": [
       {
@@ -8752,7 +8728,8 @@
     "englishName": "Lord of Eroded Primal Fire",
     "pinyin": "shimiedeyuanyanzhizhu",
     "aliases": [
-      "smdyyzz"
+      "smdyyzz",
+      "纳塔周本boss"
     ],
     "child": [
       {
@@ -8785,10 +8762,11 @@
     "id": 214141,
     "name": "「沃陆之邦」的训教",
     "englishName": "Teachings of the Collective of Plenty",
-    "pinyin": "「woluzhibang」dexunjiao",
+    "pinyin": "woluzhibangdexunjiao",
     "aliases": [
-      "「wlzb」dxj",
-      "伊安珊天赋"
+      "wlzbdxj",
+      "伊安珊天赋",
+      "沃陆之邦的训教"
     ],
     "child": [
       {
@@ -8833,7 +8811,8 @@
     "englishName": "Aqua Simulacra",
     "pinyin": "ruoshui",
     "aliases": [
-      "rs"
+      "rs",
+      "弱水"
     ],
     "child": []
   },
@@ -8856,10 +8835,6 @@
       "wjdxs"
     ],
     "child": [
-      {
-        "id": 115,
-        "name": "燃烧烈焰"
-      }
     ]
   },
   {
@@ -8871,33 +8846,18 @@
       "xljxdqz"
     ],
     "child": [
-      {
-        "id": 122,
-        "name": "生命之契"
-      }
     ]
   },
   {
     "id": 332051,
     "name": "「邪龙」的苏醒",
     "englishName": "Fell Dragon's Awakening",
-    "pinyin": "「xielong」desuxing",
+    "pinyin": "xielongdesuxing",
     "aliases": [
-      "「xl」dsx"
+      "邪龙的苏醒",
+      "邪龙"
     ],
     "child": [
-      {
-        "id": 303245,
-        "name": "「邪龙」"
-      },
-      {
-        "id": 303245,
-        "name": "「邪龙」"
-      },
-      {
-        "id": 303245,
-        "name": "「邪龙」"
-      }
     ]
   },
   {
@@ -8909,29 +8869,25 @@
       "pbdzj"
     ],
     "child": [
-      {
-        "id": 301028,
-        "name": "积木小人"
-      }
     ]
   },
   {
     "id": 332054,
     "name": "「魔女M的祝福」",
-    "englishName": "\"A Blessing From 'M'\"",
-    "pinyin": "「monvMdezhufu」",
+    "englishName": "A Blessing From M",
+    "pinyin": "monvMdezhufu",
     "aliases": [
-      "「mnMdzf」"
+      "mnMdzf"
     ],
     "child": []
   },
   {
     "id": 332055,
     "name": "「狂欢节奏」",
-    "englishName": "\"Revelrous Beats\"",
-    "pinyin": "「kuanghuanjiezou」",
+    "englishName": "Revelrous Beats",
+    "pinyin": "kuanghuanjiezou",
     "aliases": [
-      "「khjz」"
+      "khjz"
     ],
     "child": []
   }
