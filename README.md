@@ -22,7 +22,7 @@ jule prompt示例：对NameMap.json中「名字是“饕噬尽吞”，ID为2270
 ```
 将NameMap.wip.json的新增的卡牌别名增加到NameMap.json里，即进行合并。具体地，
 
-NameMap.json已经有的卡牌，不要进行任何变化；
+NameMap.json已经有的卡牌，不要进行任何变化，包含顺序；
 NameMap.wip.json里新增的卡牌（NameMap.json没有的卡牌），加入到NameMap.json里。
 ```
 
