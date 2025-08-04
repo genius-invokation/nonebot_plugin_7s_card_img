@@ -46,11 +46,17 @@ python3 beta_template.py
 会生成`NameMap.wip.json`，请和`NameMap.json`比对，将新增的新卡部分修改别名，加入到`NameMap.json`里。
 
 
+## 别名匹配说明（可以不看）
+
+- 匹配自动忽略标点
+- 角色全名有子串匹配，子串不用添加
+
 ## 如需帮助
 
 - bot群：1030307936 
 
 ![qrcode_1744131886442.jpg](https://7s-1304005994.cos.ap-singapore.myqcloud.com/qrcode_1744131886442.jpg)
+
 
 
 
