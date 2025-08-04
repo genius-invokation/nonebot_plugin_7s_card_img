@@ -8571,7 +8571,7 @@
     "pinyin": "shimiandebaoguan",
     "aliases": [
       "smdbg",
-      "燃烧套",
+      "小燃烧",
       "燃烧头"
     ],
     "child": []
@@ -8583,8 +8583,10 @@
     "pinyin": "yixianglingluodeyuanwu",
     "aliases": [
       "yxlldyw",
-      "生命之契套",
-      "契套"
+      "小生命之契",
+      "小契套",
+      "生命之契头",
+      "契头"
     ],
     "child": []
   },
@@ -8662,7 +8664,9 @@
     "englishName": "Iansan",
     "pinyin": "yianshan",
     "aliases": [
-      "yas"
+      "yas",
+      "123",
+      "教练"
     ],
     "child": [
       {
@@ -8698,7 +8702,9 @@
     "pinyin": "mengjianyueruixi",
     "aliases": [
       "mjyrx",
-      "瑞希"
+      "mzk",
+      "梦貘",
+      "食梦貘"
     ],
     "child": [
       {
@@ -8730,7 +8736,10 @@
     "pinyin": "shimiedeyuanyanzhizhu",
     "aliases": [
       "smdyyzz",
-      "纳塔周本boss"
+      "纳塔周本",
+      "古斯托特",
+      "火龙王",
+      "gstt"
     ],
     "child": [
       {
@@ -8766,15 +8775,9 @@
     "pinyin": "woluzhibangdexunjiao",
     "aliases": [
       "wlzbdxj",
-      "伊安珊天赋",
-      "沃陆之邦的训教"
+      "伊安珊天赋"
     ],
-    "child": [
-      {
-        "id": 114142,
-        "name": "动能标示"
-      }
-    ]
+    "child": []
   },
   {
     "id": 215141,
@@ -8783,6 +8786,8 @@
     "pinyin": "chanyijunyingmengxiangjian",
     "aliases": [
       "cyjymxj",
+      "梦见月天赋",
+      "瑞希天赋",
       "梦见月瑞希天赋"
     ],
     "child": []
@@ -8794,7 +8799,9 @@
     "pinyin": "wangjishengnu",
     "aliases": [
       "wjsn",
-      "蚀灭的源焰之主天赋"
+      "蚀灭的源焰之主天赋",
+      "古斯托特天赋",
+      "火龙王天赋"
     ],
     "child": []
   },
@@ -8804,8 +8811,7 @@
     "englishName": "Aqua Simulacra",
     "pinyin": "ruoshui",
     "aliases": [
-      "rs",
-      "弱水"
+      "rs"
     ],
     "child": []
   },
@@ -8815,7 +8821,9 @@
     "englishName": "Royal Masque",
     "pinyin": "zongshimianju",
     "aliases": [
-      "zsmj"
+      "zsmj",
+      "小宗室",
+      "宗室头"
     ],
     "child": []
   },
@@ -8825,7 +8833,9 @@
     "englishName": "Unfinished Reverie",
     "pinyin": "weijingdexiasi",
     "aliases": [
-      "wjdxs"
+      "wjdxs",
+      "大燃烧",
+      "燃烧套"
     ],
     "child": []
   },
@@ -8835,7 +8845,11 @@
     "englishName": "Harmonious Symphony Prelude",
     "pinyin": "xielvjiaoxiangdeqianzou",
     "aliases": [
-      "xljxdqz"
+      "xljxdqz",
+      "大生命之契",
+      "大契套",
+      "生命之契套",
+      "契套"
     ],
     "child": []
   },
@@ -8845,8 +8859,7 @@
     "englishName": "Fell Dragon's Awakening",
     "pinyin": "xielongdesuxing",
     "aliases": [
-      "邪龙的苏醒",
-      "邪龙"
+      "xldsx"
     ],
     "child": []
   },
@@ -8866,7 +8879,7 @@
     "englishName": "A Blessing From M",
     "pinyin": "monvMdezhufu",
     "aliases": [
-      "mnMdzf"
+      "mnmdzf"
     ],
     "child": []
   },
