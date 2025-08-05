@@ -29,7 +29,7 @@ jobs:
           sudo apt-get install -y jq
 
           echo "正在验证 JSON 格式..."
-          if ! jq empty your-folder/data.json; then
+          if ! jq empty map/NameMap.json; then
             echo "::error::JSON 格式错误！请修复后重新提交"
             exit 1
           else
@@ -42,11 +42,11 @@ jobs:
         run: |
           echo "尝试自动修复格式问题..."
           sudo apt-get install -y jq
-          jq . your-folder/data.json > fixed.json && mv fixed.json your-folder/data.json
+          jq . map/NameMap.json > fixed.json && mv fixed.json map/NameMap.json
           
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
-          git add your-folder/data.json
+          git add map/NameMap.json
           git commit -m "style: 自动修复 JSON 格式"
           git push origin HEAD:fix/json-format-${{ github.run_id }}
           
