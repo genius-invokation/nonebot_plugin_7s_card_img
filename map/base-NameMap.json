@@ -1964,6 +1964,57 @@
     ]
   },
   {
+    "id": 1415,
+    "name": "瓦雷莎",
+    "englishName": "Varesa",
+    "pinyin": "waleisha",
+    "aliases": [
+      "wls"
+    ],
+    "child": [
+      {
+        "id": 14151,
+        "name": "角力搏摔"
+      },
+      {
+        "id": 114151,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 114151,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 14152,
+        "name": "夜虹逐跃"
+      },
+      {
+        "id": 114154,
+        "name": "突驰烈进"
+      },
+      {
+        "id": 114151,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 14153,
+        "name": "闪烈降临！"
+      },
+      {
+        "id": 114152,
+        "name": "极限驱动"
+      },
+      {
+        "id": 14154,
+        "name": "连势，三重腾跃！"
+      },
+      {
+        "id": 114152,
+        "name": "极限驱动"
+      }
+    ]
+  },
+  {
     "id": 1501,
     "name": "砂糖",
     "englishName": "Sucrose",
@@ -2394,6 +2445,37 @@
       {
         "id": 115143,
         "name": "小貘"
+      }
+    ]
+  },
+  {
+    "id": 1515,
+    "name": "伊法",
+    "englishName": "Ifa",
+    "pinyin": "yifa",
+    "aliases": [
+      "yf"
+    ],
+    "child": [
+      {
+        "id": 15151,
+        "name": "祛风妙仪"
+      },
+      {
+        "id": 15152,
+        "name": "空天疾护"
+      },
+      {
+        "id": 115151,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 115151,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 15153,
+        "name": "复合镇静域"
       }
     ]
   },
@@ -3358,16 +3440,8 @@
         "name": "纯水幻形"
       },
       {
-        "id": 122010,
-        "name": "纯水幻形"
-      },
-      {
         "id": 22013,
         "name": "林野百态"
-      },
-      {
-        "id": 122010,
-        "name": "纯水幻形"
       },
       {
         "id": 122010,
@@ -3504,6 +3578,41 @@
       {
         "id": 22053,
         "name": "浮泡攻势"
+      }
+    ]
+  },
+  {
+    "id": 2206,
+    "name": "水形幻人",
+    "englishName": "Hydro Tulpa",
+    "pinyin": "shuixinghuanren",
+    "aliases": [
+      "sxhr"
+    ],
+    "child": [
+      {
+        "id": 22061,
+        "name": "涌浪"
+      },
+      {
+        "id": 22062,
+        "name": "疾波"
+      },
+      {
+        "id": 22063,
+        "name": "洪啸"
+      },
+      {
+        "id": 22064,
+        "name": "分流"
+      },
+      {
+        "id": 122061,
+        "name": "半幻人"
+      },
+      {
+        "id": 122061,
+        "name": "半幻人"
       }
     ]
   },
@@ -5077,6 +5186,22 @@
     ]
   },
   {
+    "id": 214151,
+    "name": "正义英雄的凯旋",
+    "englishName": "A Hero of Justice's Triumph",
+    "pinyin": "zhengyiyingxiongdekaixuan",
+    "aliases": [
+      "zyyxdkx",
+      "瓦雷莎天赋"
+    ],
+    "child": [
+      {
+        "id": 114154,
+        "name": "突驰烈进"
+      }
+    ]
+  },
+  {
     "id": 215011,
     "name": "混元熵增论",
     "englishName": "Chaotic Entropy",
@@ -5271,6 +5396,17 @@
     "aliases": [
       "cyjymxj",
       "梦见月瑞希天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 215151,
+    "name": "温敷战术包扎",
+    "englishName": "Tactical Warm Compress Bandaging",
+    "pinyin": "wenfuzhanshubaoza",
+    "aliases": [
+      "wfzsbz",
+      "伊法天赋"
     ],
     "child": []
   },
@@ -5739,6 +5875,26 @@
     "child": []
   },
   {
+    "id": 222061,
+    "name": "汇流",
+    "englishName": "Flow Convergence",
+    "pinyin": "huiliu",
+    "aliases": [
+      "hl",
+      "水形幻人天赋"
+    ],
+    "child": [
+      {
+        "id": 222062,
+        "name": "元素生命·水"
+      },
+      {
+        "id": 122061,
+        "name": "半幻人"
+      }
+    ]
+  },
+  {
     "id": 223011,
     "name": "悉数讨回",
     "englishName": "Paid in Full",
@@ -6174,6 +6330,16 @@
         "name": "生命之契"
       }
     ]
+  },
+  {
+    "id": 311111,
+    "name": "不灭月华",
+    "englishName": "Everlasting Moonglow",
+    "pinyin": "bumieyuehua",
+    "aliases": [
+      "bmyh"
+    ],
+    "child": []
   },
   {
     "id": 311201,
@@ -6932,11 +7098,11 @@
   },
   {
     "id": 312039,
-    "name": "谐律交响的前奏",
-    "englishName": "Harmonious Symphony Prelude",
-    "pinyin": "xielvjiaoxiangdeqianzou",
+    "name": "谐律异想断章",
+    "englishName": "Fragment of Harmonic Whimsy",
+    "pinyin": "xielvyixiangduanzhang",
     "aliases": [
-      "xljxdqz"
+      "xlyxdz"
     ],
     "child": [
       {
@@ -6944,6 +7110,26 @@
         "name": "生命之契"
       }
     ]
+  },
+  {
+    "id": 312040,
+    "name": "恶龙的单片镜",
+    "englishName": "Fell Dragon's Monocle",
+    "pinyin": "elongdedanpianjing",
+    "aliases": [
+      "elddpj"
+    ],
+    "child": []
+  },
+  {
+    "id": 312041,
+    "name": "昔日宗室之仪",
+    "englishName": "Noblesse Oblige",
+    "pinyin": "xirizongshizhiyi",
+    "aliases": [
+      "xrzszy"
+    ],
+    "child": []
   },
   {
     "id": 312101,
@@ -7575,6 +7761,16 @@
     "pinyin": "xingguiwangcheng",
     "aliases": [
       "xgwc"
+    ],
+    "child": []
+  },
+  {
+    "id": 321031,
+    "name": "冒险家协会",
+    "englishName": "Adventurers' Guild",
+    "pinyin": "maoxianjiaxiehui",
+    "aliases": [
+      "mxjxh"
     ],
     "child": []
   },
@@ -8765,6 +8961,10 @@
       {
         "id": 303245,
         "name": "「邪龙」"
+      },
+      {
+        "id": 303245,
+        "name": "「邪龙」"
       }
     ]
   },
@@ -8777,6 +8977,10 @@
       "pbdzj"
     ],
     "child": [
+      {
+        "id": 301028,
+        "name": "积木小人"
+      },
       {
         "id": 301028,
         "name": "积木小人"
@@ -8800,6 +9004,16 @@
     "pinyin": "「kuanghuanjiezou」",
     "aliases": [
       "「khjz」"
+    ],
+    "child": []
+  },
+  {
+    "id": 332056,
+    "name": "祀珑在昔，灵锦歆诚",
+    "englishName": "An Ancient Sacrifice of Sacred Brocade",
+    "pinyin": "silongzaixi，lingjinxincheng",
+    "aliases": [
+      "slzx，ljxc"
     ],
     "child": []
   },
@@ -9025,6 +9239,16 @@
     "pinyin": "fengrenzhici",
     "aliases": [
       "frzc"
+    ],
+    "child": []
+  },
+  {
+    "id": 333029,
+    "name": "沉玉茶露",
+    "englishName": "Chenyu Brew",
+    "pinyin": "chenyuchalu",
+    "aliases": [
+      "cycl"
     ],
     "child": []
   }
