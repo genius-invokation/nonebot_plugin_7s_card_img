@@ -9141,5 +9141,210 @@
       "cyg"
     ],
     "child": []
+  },
+  {
+    "id": 1115,
+    "name": "爱可菲",
+    "englishName": "Escoffier",
+    "pinyin": "aikefei",
+    "aliases": [
+      "akf"
+    ],
+    "child": [
+      {
+        "id": 11151,
+        "name": "后厨手艺"
+      },
+      {
+        "id": 11152,
+        "name": "低温烹饪"
+      },
+      {
+        "id": 111151,
+        "name": "厨艺机关·低温冷藏模式"
+      },
+      {
+        "id": 11153,
+        "name": "花刀技法"
+      },
+      {
+        "id": 11154,
+        "name": "时时刻刻的即兴料理"
+      },
+      {
+        "id": 111159,
+        "name": "全频谱多重任务厨艺机关"
+      }
+    ]
+  },
+  {
+    "id": 1316,
+    "name": "嘉明",
+    "englishName": "Gaming",
+    "pinyin": "jiaming",
+    "aliases": [
+      "jm"
+    ],
+    "child": [
+      {
+        "id": 13161,
+        "name": "刃爪悬星"
+      },
+      {
+        "id": 13162,
+        "name": "瑞兽登高楼"
+      },
+      {
+        "id": 113161,
+        "name": "舞兽之法"
+      },
+      {
+        "id": 13163,
+        "name": "璨焰金猊舞"
+      },
+      {
+        "id": 113162,
+        "name": "猊兽·文仔"
+      }
+    ]
+  },
+  {
+    "id": 2604,
+    "name": "黑蛇骑士·摧岩之钺",
+    "englishName": "Black Serpent Knight: Rockbreaker Ax",
+    "pinyin": "heisheqishi·cuiyanzhiyue",
+    "aliases": [
+      "hsqs·cyzy"
+    ],
+    "child": [
+      {
+        "id": 26041,
+        "name": "顶位迅斩"
+      },
+      {
+        "id": 26042,
+        "name": "斧盾震击"
+      },
+      {
+        "id": 26043,
+        "name": "坚岩姿态"
+      },
+      {
+        "id": 26044,
+        "name": "攻阵气势"
+      },
+      {
+        "id": 126041,
+        "name": "催岩伟力"
+      }
+    ]
+  },
+  {
+    "id": 211151,
+    "name": "虹彩缤纷的甜点茶话",
+    "englishName": "Tea Parties Bursting With Color",
+    "pinyin": "hongcaibinfendetiandianchahua",
+    "aliases": [
+      "hcbfdtdch",
+      "爱可菲天赋"
+    ],
+    "child": [
+      {
+        "id": 111151,
+        "name": "厨艺机关·低温冷藏模式"
+      }
+    ]
+  },
+  {
+    "id": 213161,
+    "name": "通明庇佑",
+    "englishName": "Bringer of Blessing",
+    "pinyin": "tongmingbiyou",
+    "aliases": [
+      "tmby",
+      "嘉明天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 226041,
+    "name": "「曾如磐石抵挡黑水奔流…」",
+    "englishName": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
+    "pinyin": "「cengrupanshididangheishuibenliu…」",
+    "aliases": [
+      "「crpsddhsbl…」",
+      "黑蛇骑士·摧岩之钺天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 300008,
+    "name": "驱逐灾厄",
+    "englishName": "Disperse the Calamity",
+    "pinyin": "quzhuzaie",
+    "aliases": [
+      "qzze"
+    ],
+    "child": []
+  },
+  {
+    "id": 300009,
+    "name": "肃净污染",
+    "englishName": "Cleansing the Contamination",
+    "pinyin": "sujingwuran",
+    "aliases": [
+      "sjwr"
+    ],
+    "child": []
+  },
+  {
+    "id": 312043,
+    "name": "水仙之梦",
+    "englishName": "Nymph's Dream",
+    "pinyin": "shuixianzhimeng",
+    "aliases": [
+      "sxzm"
+    ],
+    "child": []
+  },
+  {
+    "id": 322031,
+    "name": "西摩尔",
+    "englishName": "Seymour",
+    "pinyin": "ximoer",
+    "aliases": [
+      "xme"
+    ],
+    "child": []
+  },
+  {
+    "id": 330012,
+    "name": "「沙中遗事」",
+    "englishName": "Lost Legacies in the Sand",
+    "pinyin": "「shazhongyishi」",
+    "aliases": [
+      "「szys」"
+    ],
+    "child": []
+  },
+  {
+    "id": 332057,
+    "name": "水仙十字大冒险",
+    "englishName": "The Narzissenkreuz Adventure",
+    "pinyin": "shuixianshizidamaoxian",
+    "aliases": [
+      "sxszdmx"
+    ],
+    "child": []
+  },
+  {
+    "id": 332058,
+    "name": "拯救世界的计划",
+    "englishName": "Plan to Save the World",
+    "pinyin": "zhengjiushijiedejihua",
+    "aliases": [
+      "zjsjdjh"
+    ],
+    "child": []
   }
 ]
