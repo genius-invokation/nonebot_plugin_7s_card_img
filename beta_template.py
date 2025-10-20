@@ -92,9 +92,9 @@ if __name__ == "__main__":
         with open(path, encoding="utf-8") as f:
             return json.load(f)
 
-    cData = load_json_from_url("https://static-data.7shengzhaohuan.online/api/v4/data/beta/CHS/characters") 
-    aData = load_json_from_url("https://static-data.7shengzhaohuan.online/api/v4/data/beta/CHS/action_cards") 
-    eData = load_json_from_url("https://static-data.7shengzhaohuan.online/api/v4/data/beta/CHS/entities") 
+    cData = load_json_from_url("https://static-data.7shengzhaohuan.online/api/v4/data/beta/CHS/characters").get("data")
+    aData = load_json_from_url("https://static-data.7shengzhaohuan.online/api/v4/data/beta/CHS/action_cards").get("data")
+    eData = load_json_from_url("https://static-data.7shengzhaohuan.online/api/v4/data/beta/CHS/entities").get("data")
 
     # 根据 category 字段筛选
     characters = [item for item in cData if item.get("category") == "characters"]
