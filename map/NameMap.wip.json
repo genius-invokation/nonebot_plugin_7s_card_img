@@ -8905,7 +8905,9 @@
     "englishName": "Varesa",
     "pinyin": "waleisha",
     "aliases": [
-      "wls"
+      "wls",
+      "牛牛",
+      "瓦学妹"
     ],
     "child": [
       {
@@ -8917,8 +8919,8 @@
         "name": "夜魂加持"
       },
       {
-        "id": 114151,
-        "name": "夜魂加持"
+        "id": 14155,
+        "name": "闪烈降临·大火山崩落"
       },
       {
         "id": 14152,
@@ -8927,10 +8929,6 @@
       {
         "id": 114154,
         "name": "突驰烈进"
-      },
-      {
-        "id": 114151,
-        "name": "夜魂加持"
       },
       {
         "id": 14153,
@@ -8943,10 +8941,6 @@
       {
         "id": 14154,
         "name": "连势，三重腾跃！"
-      },
-      {
-        "id": 114152,
-        "name": "极限驱动"
       }
     ]
   },
@@ -8956,7 +8950,9 @@
     "englishName": "Ifa",
     "pinyin": "yifa",
     "aliases": [
-      "yf"
+      "yf",
+      "卡库库",
+      "镇静标记"
     ],
     "child": [
       {
@@ -8968,16 +8964,36 @@
         "name": "空天疾护"
       },
       {
-        "id": 115151,
-        "name": "夜魂加持"
+        "id": 115152,
+        "name": "咔库库"
       },
       {
         "id": 115151,
         "name": "夜魂加持"
+      },
+      {
+        "id": 1151521,
+        "name": "援护射击"
       },
       {
         "id": 15153,
         "name": "复合镇静域"
+      },
+      {
+        "id": 115153,
+        "name": "镇静标记·冰"
+      },
+      {
+        "id": 115154,
+        "name": "镇静标记·水"
+      },
+      {
+        "id": 115155,
+        "name": "镇静标记·火"
+      },
+      {
+        "id": 115156,
+        "name": "镇静标记·雷"
       }
     ]
   },
@@ -8987,7 +9003,8 @@
     "englishName": "Hydro Tulpa",
     "pinyin": "shuixinghuanren",
     "aliases": [
-      "sxhr"
+      "sxhr",
+      "水人"
     ],
     "child": [
       {
@@ -9009,10 +9026,6 @@
       {
         "id": 122061,
         "name": "半幻人"
-      },
-      {
-        "id": 122061,
-        "name": "半幻人"
       }
     ]
   },
@@ -9025,12 +9038,7 @@
       "zyyxdkx",
       "瓦雷莎天赋"
     ],
-    "child": [
-      {
-        "id": 114154,
-        "name": "突驰烈进"
-      }
-    ]
+    "child": []
   },
   {
     "id": 215151,
@@ -9056,10 +9064,6 @@
       {
         "id": 222062,
         "name": "元素生命·水"
-      },
-      {
-        "id": 122061,
-        "name": "半幻人"
       }
     ]
   },
@@ -9079,7 +9083,9 @@
     "englishName": "Fell Dragon's Monocle",
     "pinyin": "elongdedanpianjing",
     "aliases": [
-      "elddpj"
+      "elddpj",
+      "水仙头",
+      "小水仙"
     ],
     "child": []
   },
@@ -9089,7 +9095,9 @@
     "englishName": "Noblesse Oblige",
     "pinyin": "xirizongshizhiyi",
     "aliases": [
-      "xrzszy"
+      "xrzszy",
+      "大宗室",
+      "宗室套"
     ],
     "child": []
   },
@@ -9109,7 +9117,8 @@
     "englishName": "An Ancient Sacrifice of Sacred Brocade",
     "pinyin": "silongzaixi，lingjinxincheng",
     "aliases": [
-      "slzx，ljxc"
+      "slzxljxc",
+      "浮锦"
     ],
     "child": []
   },
@@ -9120,6 +9129,16 @@
     "pinyin": "chenyuchalu",
     "aliases": [
       "cycl"
+    ],
+    "child": []
+  },
+  {
+    "id": 321032,
+    "name": "沉玉谷",
+    "englishName": "Chenyu Vale",
+    "pinyin": "chenyugu",
+    "aliases": [
+      "cyg"
     ],
     "child": []
   }
