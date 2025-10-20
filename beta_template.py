@@ -92,13 +92,14 @@ if __name__ == "__main__":
         with open(path, encoding="utf-8") as f:
             return json.load(f)
 
-    alldata = load_json_from_url("https://beta.assets.gi-tcg.guyutongxue.site/api/v3/data")
-
+    cData = load_json_from_url("https://static-data.7shengzhaohuan.online/api/v4/data/beta/CHS/characters") 
+    aData = load_json_from_url("https://static-data.7shengzhaohuan.online/api/v4/data/beta/CHS/action_cards") 
+    eData = load_json_from_url("https://static-data.7shengzhaohuan.online/api/v4/data/beta/CHS/entites") 
 
     # 根据 category 字段筛选
-    characters = [item for item in alldata if item.get("category") == "characters"]
-    actions = [item for item in alldata if item.get("category") == "action_cards"]
-    entities = [item for item in alldata if item.get("category") == "entities"]
+    characters = [item for item in cData if item.get("category") == "characters"]
+    actions = [item for item in aData if item.get("category") == "action_cards"]
+    # entities = [item for item in eData if item.get("category") == "entities"]
 
     db = generate_namemap(characters, actions, entities)
 
