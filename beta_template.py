@@ -99,7 +99,7 @@ if __name__ == "__main__":
     # 根据 category 字段筛选
     characters = [item for item in cData if item.get("category") == "characters"]
     actions = [item for item in aData if item.get("category") == "action_cards"]
-    # entities = [item for item in eData if item.get("category") == "entities"]
+    entities = [item for item in eData if item.get("category") == "entities"]
 
     db = generate_namemap(characters, actions, entities)
 
