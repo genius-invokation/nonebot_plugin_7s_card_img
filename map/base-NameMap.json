@@ -8133,6 +8133,26 @@
     "child": []
   },
   {
+    "id": 321032,
+    "name": "沉玉谷",
+    "englishName": "Chenyu Vale",
+    "pinyin": "chenyugu",
+    "aliases": [
+      "cyg"
+    ],
+    "child": []
+  },
+  {
+    "id": 321033,
+    "name": "自体自身之塔",
+    "englishName": "Tower of Ipsissimus",
+    "pinyin": "zitizishenzhita",
+    "aliases": [
+      "ztzszt"
+    ],
+    "child": []
+  },
+  {
     "id": 322001,
     "name": "派蒙",
     "englishName": "Paimon",

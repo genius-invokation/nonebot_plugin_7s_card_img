@@ -3041,7 +3041,9 @@
     "pinyin": "yurenzhong·bingyingshushi",
     "aliases": [
       "byss",
-      "冰萤术士"
+      "冰萤术士",
+      "冰莹术士",
+      "冰术士"
     ],
     "child": [
       {
@@ -3756,7 +3758,9 @@
     "pinyin": "yurenzhong·leiyingshushi",
     "aliases": [
       "雷萤术士",
-      "lyss"
+      "lyss",
+      "雷莹术士",
+      "雷术士"
     ],
     "child": [
       {
@@ -9344,6 +9348,16 @@
     "pinyin": "zhengjiushijiedejihua",
     "aliases": [
       "zjsjdjh"
+    ],
+    "child": []
+  },
+  {
+    "id": 321033,
+    "name": "自体自身之塔",
+    "englishName": "Tower of Ipsissimus",
+    "pinyin": "zitizishenzhita",
+    "aliases": [
+      "ztzszt"
     ],
     "child": []
   }
