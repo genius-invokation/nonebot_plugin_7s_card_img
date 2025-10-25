@@ -52,7 +52,7 @@ def generate_namemap(characters, actions, entities):
     output = []
 
     for item in combined:
-        if item.get("obtainable", True) is False:
+        if item.get("obtainable", True) is False and "GCG_TAG_ADVENTURE_PLACE" not in item.get("tags", []):
             continue
 
         name = item["name"]
