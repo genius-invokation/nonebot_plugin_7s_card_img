@@ -9178,6 +9178,22 @@
       {
         "id": 111159,
         "name": "全频谱多重任务厨艺机关"
+      },
+      {
+        "id": 111152,
+        "name": "鎏金殿堂"
+      },
+      {
+        "id": 111153,
+        "name": "雾凇秋分"
+      },
+      {
+        "id": 111154,
+        "name": "白浪拂沙"
+      },
+      {
+        "id": 111155,
+        "name": "一捧绿野"
       }
     ]
   },
@@ -9187,7 +9203,8 @@
     "englishName": "Gaming",
     "pinyin": "jiaming",
     "aliases": [
-      "jm"
+      "jm",
+      "文仔"
     ],
     "child": [
       {
@@ -9218,7 +9235,13 @@
     "englishName": "Black Serpent Knight: Rockbreaker Ax",
     "pinyin": "heisheqishi·cuiyanzhiyue",
     "aliases": [
-      "hsqs·cyzy"
+      "hsqscyzy",
+      "黑蛇众",
+      "空壳怪",
+      "空壳骑士",
+      "岩空壳",
+      "岩黑蛇",
+      "空壳"
     ],
     "child": [
       {
@@ -9252,12 +9275,7 @@
       "hcbfdtdch",
       "爱可菲天赋"
     ],
-    "child": [
-      {
-        "id": 111151,
-        "name": "厨艺机关·低温冷藏模式"
-      }
-    ]
+    "child": []
   },
   {
     "id": 213161,
@@ -9276,28 +9294,8 @@
     "englishName": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
     "pinyin": "「cengrupanshididangheishuibenliu…」",
     "aliases": [
-      "「crpsddhsbl…」",
+      "crpsddhsbl",
       "黑蛇骑士·摧岩之钺天赋"
-    ],
-    "child": []
-  },
-  {
-    "id": 300008,
-    "name": "驱逐灾厄",
-    "englishName": "Disperse the Calamity",
-    "pinyin": "quzhuzaie",
-    "aliases": [
-      "qzze"
-    ],
-    "child": []
-  },
-  {
-    "id": 300009,
-    "name": "肃净污染",
-    "englishName": "Cleansing the Contamination",
-    "pinyin": "sujingwuran",
-    "aliases": [
-      "sjwr"
     ],
     "child": []
   },
@@ -9307,7 +9305,10 @@
     "englishName": "Nymph's Dream",
     "pinyin": "shuixianzhimeng",
     "aliases": [
-      "sxzm"
+      "sxzm",
+      "大水仙",
+      "水仙套",
+      "大师"
     ],
     "child": []
   },
@@ -9317,7 +9318,8 @@
     "englishName": "Seymour",
     "pinyin": "ximoer",
     "aliases": [
-      "xme"
+      "xme",
+      "机械狗"
     ],
     "child": []
   },
@@ -9327,9 +9329,19 @@
     "englishName": "Lost Legacies in the Sand",
     "pinyin": "「shazhongyishi」",
     "aliases": [
-      "「szys」"
+      "szys",
+      "大草智"
     ],
-    "child": []
+    "child": [
+      {
+        "id": 300008,
+        "name": "驱逐灾厄"
+      },
+      {
+        "id": 300009,
+        "name": "肃净污染"
+      }
+    ]
   },
   {
     "id": 332057,
@@ -9337,7 +9349,8 @@
     "englishName": "The Narzissenkreuz Adventure",
     "pinyin": "shuixianshizidamaoxian",
     "aliases": [
-      "sxszdmx"
+      "sxszdmx",
+      "水仙十字院"
     ],
     "child": []
   },
@@ -9347,7 +9360,8 @@
     "englishName": "Plan to Save the World",
     "pinyin": "zhengjiushijiedejihua",
     "aliases": [
-      "zjsjdjh"
+      "zjsjdjh",
+      "救世"
     ],
     "child": []
   },
@@ -9357,8 +9371,21 @@
     "englishName": "Tower of Ipsissimus",
     "pinyin": "zitizishenzhita",
     "aliases": [
-      "ztzszt"
+      "ztzszt",
+      "格式塔",
+      "水仙十字塔",
+      "水仙十字剑",
+      "圣剑"
     ],
-    "child": []
+    "child": [
+      {
+        "id": 301038,
+        "name": "木制玩具剑"
+      },
+      {
+        "id": 301039,
+        "name": "重铸圣剑"
+      }
+    ]
   }
 ]
