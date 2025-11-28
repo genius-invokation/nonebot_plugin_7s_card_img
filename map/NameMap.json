@@ -6161,7 +6161,8 @@
       "大沙王",
       "大饰金",
       "饰金套",
-      "sjzm"
+      "sjzm",
+      "湿巾"
     ],
     "child": []
   },
@@ -8157,7 +8158,8 @@
     "englishName": "Machine Assembly Line",
     "pinyin": "jiguanzhuchengzhilian",
     "aliases": [
-      "jgzczl"
+      "jgzczl",
+      "机关链"
     ],
     "child": []
   },
@@ -8287,7 +8289,6 @@
     "englishName": "Little Tepetlisaur — Treasure Hunter at Large",
     "pinyin": "xiaojifenglong！faxianbaozang！",
     "aliases": [
-      "小嵴锋龙发现宝藏",
       "xjflfxbz"
     ],
     "child": []
@@ -8309,8 +8310,6 @@
     "englishName": "Art of Sleepy Meditation",
     "pinyin": "kunkunmingxiangshu",
     "aliases": [
-      "瞑想",
-      "暝想",
       "kkmxs"
     ],
     "child": []
@@ -9164,7 +9163,8 @@
     "pinyin": "silongzaixi，lingjinxincheng",
     "aliases": [
       "slzxljxc",
-      "浮锦"
+      "浮锦",
+      "锦鲤"
     ],
     "child": []
   },
@@ -9266,6 +9266,10 @@
         "name": "璨焰金猊舞"
       },
       {
+        "id": 13164,
+        "name": "踏云献瑞"
+      },
+      {
         "id": 113162,
         "name": "猊兽·文仔"
       }
@@ -9297,6 +9301,14 @@
       {
         "id": 26043,
         "name": "坚岩姿态"
+      },
+      {
+        "id": 26045,
+        "name": "巨钺强袭"
+      },
+      {
+        "id": 26047,
+        "name": "大师之击"
       },
       {
         "id": 26044,
@@ -9393,7 +9405,8 @@
     "pinyin": "shuixianshizidamaoxian",
     "aliases": [
       "sxszdmx",
-      "水仙十字院"
+      "水仙十字院",
+      "纯水院长"
     ],
     "child": []
   },
@@ -9422,7 +9435,8 @@
       "格式塔",
       "水仙十字塔",
       "水仙十字剑",
-      "圣剑"
+      "圣剑",
+      "水仙塔"
     ],
     "child": [
       {
