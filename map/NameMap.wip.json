@@ -879,10 +879,6 @@
         "name": "弹跳水疗法"
       },
       {
-        "id": 122,
-        "name": "生命之契"
-      },
-      {
         "id": 12133,
         "name": "过饱和心意注射"
       },
@@ -1382,10 +1378,6 @@
         "name": "斩首之邀"
       },
       {
-        "id": 122,
-        "name": "生命之契"
-      },
-      {
         "id": 13142,
         "name": "万相化灰"
       },
@@ -1843,10 +1835,6 @@
       {
         "id": 114121,
         "name": "夜巡"
-      },
-      {
-        "id": 122,
-        "name": "生命之契"
       },
       {
         "id": 14122,
@@ -3174,10 +3162,6 @@
       {
         "id": 121042,
         "name": "掠袭锐势"
-      },
-      {
-        "id": 122,
-        "name": "生命之契"
       },
       {
         "id": 21044,
@@ -6177,7 +6161,8 @@
       "大沙王",
       "大饰金",
       "饰金套",
-      "sjzm"
+      "sjzm",
+      "湿巾"
     ],
     "child": []
   },
@@ -7359,10 +7344,61 @@
     "pinyin": "selin",
     "aliases": [
       "sl",
+      "瑟琳",
       "瑟神",
-      "美露莘的声援"
+      "美露莘的声援",
+      "洛梅",
+      "柯莎",
+      "夏诺蒂拉",
+      "希洛娜",
+      "希露艾",
+      "薇尔妲",
+      "芙佳",
+      "托皮娅",
+      "卢蒂妮"
     ],
-    "child": []
+    "child": [
+      {
+        "id": 302206,
+        "name": "瑟琳的声援"
+      },
+      {
+        "id": 302207,
+        "name": "洛梅的声援"
+      },
+      {
+        "id": 302208,
+        "name": "柯莎的声援"
+      },
+      {
+        "id": 302209,
+        "name": "夏诺蒂拉的声援"
+      },
+      {
+        "id": 302210,
+        "name": "希洛娜的声援"
+      },
+      {
+        "id": 302211,
+        "name": "希露艾的声援"
+      },
+      {
+        "id": 302212,
+        "name": "薇尔妲的声援"
+      },
+      {
+        "id": 302213,
+        "name": "芙佳的声援"
+      },
+      {
+        "id": 302214,
+        "name": "托皮娅的声援"
+      },
+      {
+        "id": 302215,
+        "name": "卢蒂妮的声援"
+      }
+    ]
   },
   {
     "id": 322028,
@@ -7390,7 +7426,11 @@
     "englishName": "NRE",
     "pinyin": "bianxieyingyangdai",
     "aliases": [
-      "bxyyd"
+      "bxyyd",
+      "便捷营养袋",
+      "食品袋",
+      "便携食品袋",
+      "便捷食品袋"
     ],
     "child": []
   },
@@ -8118,7 +8158,8 @@
     "englishName": "Machine Assembly Line",
     "pinyin": "jiguanzhuchengzhilian",
     "aliases": [
-      "jgzczl"
+      "jgzczl",
+      "机关链"
     ],
     "child": []
   },
@@ -8248,7 +8289,6 @@
     "englishName": "Little Tepetlisaur — Treasure Hunter at Large",
     "pinyin": "xiaojifenglong！faxianbaozang！",
     "aliases": [
-      "小嵴锋龙发现宝藏",
       "xjflfxbz"
     ],
     "child": []
@@ -8270,8 +8310,6 @@
     "englishName": "Art of Sleepy Meditation",
     "pinyin": "kunkunmingxiangshu",
     "aliases": [
-      "瞑想",
-      "暝想",
       "kkmxs"
     ],
     "child": []
@@ -8637,9 +8675,7 @@
     "englishName": "Gift of the Goddess of Prophecy",
     "pinyin": "yuyannvshendeliwu",
     "aliases": [
-      "yynsdlw",
-      "积木",
-      "积木小人"
+      "yynsdlw"
     ],
     "child": []
   },
@@ -8857,9 +8893,15 @@
       "大生命之契",
       "大契套",
       "生命之契套",
-      "契套"
+      "契套",
+      "斜率"
     ],
-    "child": []
+    "child": [
+      {
+        "id": 122,
+        "name": "生命之契"
+      }
+    ]
   },
   {
     "id": 332051,
@@ -8869,7 +8911,12 @@
     "aliases": [
       "xldsx"
     ],
-    "child": []
+    "child": [
+      {
+        "id": 303245,
+        "name": "邪龙"
+      }
+    ]
   },
   {
     "id": 332052,
@@ -8877,7 +8924,9 @@
     "englishName": "Narration Footnotes",
     "pinyin": "pangbaidezhujiao",
     "aliases": [
-      "pbdzj"
+      "pbdzj",
+      "积木",
+      "积木小人"
     ],
     "child": []
   },
@@ -8917,10 +8966,6 @@
       {
         "id": 14151,
         "name": "角力搏摔"
-      },
-      {
-        "id": 114151,
-        "name": "夜魂加持"
       },
       {
         "id": 14155,
@@ -8970,10 +9015,6 @@
       {
         "id": 115152,
         "name": "咔库库"
-      },
-      {
-        "id": 115151,
-        "name": "夜魂加持"
       },
       {
         "id": 1151521,
@@ -9122,7 +9163,8 @@
     "pinyin": "silongzaixi，lingjinxincheng",
     "aliases": [
       "slzxljxc",
-      "浮锦"
+      "浮锦",
+      "锦鲤"
     ],
     "child": []
   },
@@ -9178,6 +9220,22 @@
       {
         "id": 111159,
         "name": "全频谱多重任务厨艺机关"
+      },
+      {
+        "id": 111152,
+        "name": "鎏金殿堂"
+      },
+      {
+        "id": 111153,
+        "name": "雾凇秋分"
+      },
+      {
+        "id": 111154,
+        "name": "白浪拂沙"
+      },
+      {
+        "id": 111155,
+        "name": "一捧绿野"
       }
     ]
   },
@@ -9187,7 +9245,8 @@
     "englishName": "Gaming",
     "pinyin": "jiaming",
     "aliases": [
-      "jm"
+      "jm",
+      "文仔"
     ],
     "child": [
       {
@@ -9207,6 +9266,10 @@
         "name": "璨焰金猊舞"
       },
       {
+        "id": 13164,
+        "name": "踏云献瑞"
+      },
+      {
         "id": 113162,
         "name": "猊兽·文仔"
       }
@@ -9218,7 +9281,13 @@
     "englishName": "Black Serpent Knight: Rockbreaker Ax",
     "pinyin": "heisheqishi·cuiyanzhiyue",
     "aliases": [
-      "hsqs·cyzy"
+      "hsqscyzy",
+      "黑蛇众",
+      "空壳怪",
+      "空壳骑士",
+      "岩空壳",
+      "岩黑蛇",
+      "空壳"
     ],
     "child": [
       {
@@ -9234,12 +9303,20 @@
         "name": "坚岩姿态"
       },
       {
+        "id": 26045,
+        "name": "巨钺强袭"
+      },
+      {
+        "id": 26047,
+        "name": "大师之击"
+      },
+      {
         "id": 26044,
         "name": "攻阵气势"
       },
       {
         "id": 126041,
-        "name": "催岩伟力"
+        "name": "摧岩伟力"
       }
     ]
   },
@@ -9252,12 +9329,7 @@
       "hcbfdtdch",
       "爱可菲天赋"
     ],
-    "child": [
-      {
-        "id": 111151,
-        "name": "厨艺机关·低温冷藏模式"
-      }
-    ]
+    "child": []
   },
   {
     "id": 213161,
@@ -9276,8 +9348,257 @@
     "englishName": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
     "pinyin": "「cengrupanshididangheishuibenliu…」",
     "aliases": [
-      "「crpsddhsbl…」",
+      "crpsddhsbl",
       "黑蛇骑士·摧岩之钺天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 312043,
+    "name": "水仙之梦",
+    "englishName": "Nymph's Dream",
+    "pinyin": "shuixianzhimeng",
+    "aliases": [
+      "sxzm",
+      "大水仙",
+      "水仙套",
+      "大师"
+    ],
+    "child": []
+  },
+  {
+    "id": 322031,
+    "name": "西摩尔",
+    "englishName": "Seymour",
+    "pinyin": "ximoer",
+    "aliases": [
+      "xme",
+      "机械狗"
+    ],
+    "child": []
+  },
+  {
+    "id": 330012,
+    "name": "「沙中遗事」",
+    "englishName": "Lost Legacies in the Sand",
+    "pinyin": "「shazhongyishi」",
+    "aliases": [
+      "szys",
+      "大草智",
+      "大慈树王"
+    ],
+    "child": [
+      {
+        "id": 300008,
+        "name": "驱逐灾厄"
+      },
+      {
+        "id": 300009,
+        "name": "肃净污染"
+      }
+    ]
+  },
+  {
+    "id": 332057,
+    "name": "水仙十字大冒险",
+    "englishName": "The Narzissenkreuz Adventure",
+    "pinyin": "shuixianshizidamaoxian",
+    "aliases": [
+      "sxszdmx",
+      "水仙十字院",
+      "纯水院长"
+    ],
+    "child": []
+  },
+  {
+    "id": 332058,
+    "name": "拯救世界的计划",
+    "englishName": "Plan to Save the World",
+    "pinyin": "zhengjiushijiedejihua",
+    "aliases": [
+      "zjsjdjh",
+      "救世",
+      "世界计划",
+      "pjsk",
+      "project sekai",
+      "啤酒烧烤"
+    ],
+    "child": []
+  },
+  {
+    "id": 321033,
+    "name": "自体自身之塔",
+    "englishName": "Tower of Ipsissimus",
+    "pinyin": "zitizishenzhita",
+    "aliases": [
+      "ztzszt",
+      "格式塔",
+      "水仙十字塔",
+      "水仙十字剑",
+      "圣剑",
+      "水仙塔"
+    ],
+    "child": [
+      {
+        "id": 301038,
+        "name": "木制玩具剑"
+      },
+      {
+        "id": 301039,
+        "name": "重铸圣剑"
+      }
+    ]
+  },
+  {
+    "id": 1116,
+    "name": "丝柯克",
+    "englishName": "Skirk",
+    "pinyin": "sikeke",
+    "aliases": [
+      "skk"
+    ],
+    "child": [
+      {
+        "id": 11161,
+        "name": "极恶技·断"
+      },
+      {
+        "id": 11162,
+        "name": "极恶技·闪"
+      },
+      {
+        "id": 11163,
+        "name": "极恶技·灭"
+      },
+      {
+        "id": 11164,
+        "name": "理外之理"
+      }
+    ]
+  },
+  {
+    "id": 1416,
+    "name": "欧洛伦",
+    "englishName": "Ororon",
+    "pinyin": "ouluolun",
+    "aliases": [
+      "oll"
+    ],
+    "child": [
+      {
+        "id": 14161,
+        "name": "宿灵闪箭"
+      },
+      {
+        "id": 14162,
+        "name": "暝色缒索"
+      },
+      {
+        "id": 14163,
+        "name": "黯声回响"
+      },
+      {
+        "id": 114161,
+        "name": "超音灵眼"
+      },
+      {
+        "id": 14164,
+        "name": "夜翳的通感"
+      },
+      {
+        "id": 114163,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 114163,
+        "name": "夜魂加持"
+      }
+    ]
+  },
+  {
+    "id": 2207,
+    "name": "圣骸角鳄",
+    "englishName": "Consecrated Horned Crocodile",
+    "pinyin": "shenghaijiaoe",
+    "aliases": [
+      "shje"
+    ],
+    "child": [
+      {
+        "id": 22071,
+        "name": "尖牙噬咬"
+      },
+      {
+        "id": 22072,
+        "name": "鳄齿锐波"
+      },
+      {
+        "id": 22073,
+        "name": "凶鳄狂浪"
+      },
+      {
+        "id": 22074,
+        "name": "圣骸感应"
+      }
+    ]
+  },
+  {
+    "id": 6605,
+    "name": "丝柯克",
+    "englishName": "Skirk",
+    "pinyin": "sikeke",
+    "aliases": [
+      "skk"
+    ],
+    "child": [
+      {
+        "id": 11161,
+        "name": "极恶技·断"
+      },
+      {
+        "id": 11162,
+        "name": "极恶技·闪"
+      },
+      {
+        "id": 11165,
+        "name": "极恶技·尽"
+      },
+      {
+        "id": 11164,
+        "name": "理外之理"
+      }
+    ]
+  },
+  {
+    "id": 211161,
+    "name": "湮远",
+    "englishName": "Far to Fall",
+    "pinyin": "yanyuan",
+    "aliases": [
+      "yy",
+      "丝柯克天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 214161,
+    "name": "林雾间的行迹",
+    "englishName": "Trails Amidst the Forest Fog",
+    "pinyin": "linwujiandexingji",
+    "aliases": [
+      "lwjdxj",
+      "欧洛伦天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 222071,
+    "name": "亡水溢流",
+    "englishName": "Deathly Overflow",
+    "pinyin": "wangshuiyiliu",
+    "aliases": [
+      "wsyl",
+      "圣骸角鳄天赋"
     ],
     "child": []
   },
@@ -9294,7 +9615,7 @@
   {
     "id": 300009,
     "name": "肃净污染",
-    "englishName": "Cleansing the Contamination",
+    "englishName": "Sanctify the Defiled",
     "pinyin": "sujingwuran",
     "aliases": [
       "sjwr"
@@ -9302,62 +9623,77 @@
     "child": []
   },
   {
-    "id": 312043,
-    "name": "水仙之梦",
-    "englishName": "Nymph's Dream",
-    "pinyin": "shuixianzhimeng",
+    "id": 311112,
+    "name": "祭星者之望",
+    "englishName": "Starcaller's Watch",
+    "pinyin": "jixingzhezhiwang",
     "aliases": [
-      "sxzm"
+      "jxzzw"
     ],
     "child": []
   },
   {
-    "id": 322031,
-    "name": "西摩尔",
-    "englishName": "Seymour",
-    "pinyin": "ximoer",
+    "id": 311310,
+    "name": "拾慧铸熔",
+    "englishName": "Flame-Forged Insight",
+    "pinyin": "shihuizhurong",
     "aliases": [
-      "xme"
+      "shzr"
     ],
     "child": []
   },
   {
-    "id": 330012,
-    "name": "「沙中遗事」",
-    "englishName": "Lost Legacies in the Sand",
-    "pinyin": "「shazhongyishi」",
+    "id": 312044,
+    "name": "被浸染的缨盔",
+    "englishName": "Dyed Tassel",
+    "pinyin": "beijinrandeyingkui",
     "aliases": [
-      "「szys」"
+      "bjrdyk"
+    ],
+    "child": [
+      {
+        "id": 169,
+        "name": "高效切换"
+      }
+    ]
+  },
+  {
+    "id": 321034,
+    "name": "天蛇船",
+    "englishName": "Tonatiuh",
+    "pinyin": "tianshechuan",
+    "aliases": [
+      "tsc"
     ],
     "child": []
   },
   {
-    "id": 332057,
-    "name": "水仙十字大冒险",
-    "englishName": "The Narzissenkreuz Adventure",
-    "pinyin": "shuixianshizidamaoxian",
+    "id": 322032,
+    "name": "玻娜与「绿松石」",
+    "englishName": "Bona and \"Cocouik\"",
+    "pinyin": "bonayu「lvsongshi」",
     "aliases": [
-      "sxszdmx"
+      "bny「lss」"
     ],
     "child": []
   },
   {
-    "id": 332058,
-    "name": "拯救世界的计划",
-    "englishName": "Plan to Save the World",
-    "pinyin": "zhengjiushijiedejihua",
+    "id": 332053,
+    "name": "破碎之海",
+    "englishName": "Broken Sea",
+    "pinyin": "posuizhihai",
     "aliases": [
-      "zjsjdjh"
+      "pszh"
     ],
     "child": []
   },
   {
-    "id": 321033,
-    "name": "自体自身之塔",
-    "englishName": "Tower of Ipsissimus",
-    "pinyin": "zitizishenzhita",
+    "id": 332059,
+    "name": "「穿越晨霭的冒险」",
+    "englishName": "\"An Adventure Through the Morning Mist\"",
+    "pinyin": "「chuanyuechenaidemaoxian」",
     "aliases": [
-      "ztzszt"
+      "「cycadmx」"
     ],
     "child": []
   }
