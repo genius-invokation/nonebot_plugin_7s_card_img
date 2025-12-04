@@ -9455,7 +9455,8 @@
     "englishName": "Skirk",
     "pinyin": "sikeke",
     "aliases": [
-      "skk"
+      "skk",
+      "蛇之狡谋"
     ],
     "child": [
       {
@@ -9471,8 +9472,24 @@
         "name": "极恶技·灭"
       },
       {
+        "id": 11165,
+        "name": "极恶技·尽"
+      },
+      {
         "id": 11164,
         "name": "理外之理"
+      },
+      {
+        "id": 111162,
+        "name": "七相一闪"
+      },
+      {
+        "id": 111161,
+        "name": "诸武相授"
+      },
+      {
+        "id": 111163,
+        "name": "虚境裂隙"
       }
     ]
   },
@@ -9482,7 +9499,8 @@
     "englishName": "Ororon",
     "pinyin": "ouluolun",
     "aliases": [
-      "oll"
+      "oll",
+      "孙子"
     ],
     "child": [
       {
@@ -9502,12 +9520,12 @@
         "name": "超音灵眼"
       },
       {
-        "id": 14164,
-        "name": "夜翳的通感"
+        "id": 114161,
+        "name": "宿灵球"
       },
       {
-        "id": 114163,
-        "name": "夜魂加持"
+        "id": 14164,
+        "name": "夜翳的通感"
       },
       {
         "id": 114163,
@@ -9521,7 +9539,9 @@
     "englishName": "Consecrated Horned Crocodile",
     "pinyin": "shenghaijiaoe",
     "aliases": [
-      "shje"
+      "shje",
+      "水圣骸兽",
+      "鳄鱼"
     ],
     "child": [
       {
@@ -9539,33 +9559,6 @@
       {
         "id": 22074,
         "name": "圣骸感应"
-      }
-    ]
-  },
-  {
-    "id": 6605,
-    "name": "丝柯克",
-    "englishName": "Skirk",
-    "pinyin": "sikeke",
-    "aliases": [
-      "skk"
-    ],
-    "child": [
-      {
-        "id": 11161,
-        "name": "极恶技·断"
-      },
-      {
-        "id": 11162,
-        "name": "极恶技·闪"
-      },
-      {
-        "id": 11165,
-        "name": "极恶技·尽"
-      },
-      {
-        "id": 11164,
-        "name": "理外之理"
       }
     ]
   },
@@ -9603,32 +9596,14 @@
     "child": []
   },
   {
-    "id": 300008,
-    "name": "驱逐灾厄",
-    "englishName": "Disperse the Calamity",
-    "pinyin": "quzhuzaie",
-    "aliases": [
-      "qzze"
-    ],
-    "child": []
-  },
-  {
-    "id": 300009,
-    "name": "肃净污染",
-    "englishName": "Sanctify the Defiled",
-    "pinyin": "sujingwuran",
-    "aliases": [
-      "sjwr"
-    ],
-    "child": []
-  },
-  {
     "id": 311112,
     "name": "祭星者之望",
     "englishName": "Starcaller's Watch",
     "pinyin": "jixingzhezhiwang",
     "aliases": [
-      "jxzzw"
+      "jxzzw",
+      "茜特菈莉专武",
+      "奶奶专武"
     ],
     "child": []
   },
@@ -9648,14 +9623,12 @@
     "englishName": "Dyed Tassel",
     "pinyin": "beijinrandeyingkui",
     "aliases": [
-      "bjrdyk"
+      "bjrdyk",
+      "下落头",
+      "长夜头",
+      "小长夜"
     ],
-    "child": [
-      {
-        "id": 169,
-        "name": "高效切换"
-      }
-    ]
+    "child": []
   },
   {
     "id": 321034,
@@ -9663,17 +9636,28 @@
     "englishName": "Tonatiuh",
     "pinyin": "tianshechuan",
     "aliases": [
-      "tsc"
+      "tsc",
+      "奥奇卡纳塔"
     ],
-    "child": []
+    "child": [
+      {
+        "id": 172,
+        "name": "战斗计划"
+      },
+      {
+        "id": 301041,
+        "name": "回天的圣主"
+      }
+    ]
   },
   {
     "id": 322032,
     "name": "玻娜与「绿松石」",
-    "englishName": "Bona and \"Cocouik\"",
-    "pinyin": "bonayu「lvsongshi」",
+    "englishName": "Bona and Cocouik",
+    "pinyin": "bonayulvsongshi",
     "aliases": [
-      "bny「lss」"
+      "bnylss",
+      "奥奇坎"
     ],
     "child": []
   },
@@ -9690,10 +9674,10 @@
   {
     "id": 332059,
     "name": "「穿越晨霭的冒险」",
-    "englishName": "\"An Adventure Through the Morning Mist\"",
-    "pinyin": "「chuanyuechenaidemaoxian」",
+    "englishName": "An Adventure Through the Morning Mist",
+    "pinyin": "chuanyuechenaidemaoxian",
     "aliases": [
-      "「cycadmx」"
+      "cycadmx"
     ],
     "child": []
   }
