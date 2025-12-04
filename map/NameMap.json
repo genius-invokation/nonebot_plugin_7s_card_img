@@ -9448,5 +9448,253 @@
         "name": "重铸圣剑"
       }
     ]
+  },
+  {
+    "id": 1116,
+    "name": "丝柯克",
+    "englishName": "Skirk",
+    "pinyin": "sikeke",
+    "aliases": [
+      "skk"
+    ],
+    "child": [
+      {
+        "id": 11161,
+        "name": "极恶技·断"
+      },
+      {
+        "id": 11162,
+        "name": "极恶技·闪"
+      },
+      {
+        "id": 11163,
+        "name": "极恶技·灭"
+      },
+      {
+        "id": 11164,
+        "name": "理外之理"
+      }
+    ]
+  },
+  {
+    "id": 1416,
+    "name": "欧洛伦",
+    "englishName": "Ororon",
+    "pinyin": "ouluolun",
+    "aliases": [
+      "oll"
+    ],
+    "child": [
+      {
+        "id": 14161,
+        "name": "宿灵闪箭"
+      },
+      {
+        "id": 14162,
+        "name": "暝色缒索"
+      },
+      {
+        "id": 14163,
+        "name": "黯声回响"
+      },
+      {
+        "id": 114161,
+        "name": "超音灵眼"
+      },
+      {
+        "id": 14164,
+        "name": "夜翳的通感"
+      },
+      {
+        "id": 114163,
+        "name": "夜魂加持"
+      },
+      {
+        "id": 114163,
+        "name": "夜魂加持"
+      }
+    ]
+  },
+  {
+    "id": 2207,
+    "name": "圣骸角鳄",
+    "englishName": "Consecrated Horned Crocodile",
+    "pinyin": "shenghaijiaoe",
+    "aliases": [
+      "shje"
+    ],
+    "child": [
+      {
+        "id": 22071,
+        "name": "尖牙噬咬"
+      },
+      {
+        "id": 22072,
+        "name": "鳄齿锐波"
+      },
+      {
+        "id": 22073,
+        "name": "凶鳄狂浪"
+      },
+      {
+        "id": 22074,
+        "name": "圣骸感应"
+      }
+    ]
+  },
+  {
+    "id": 6605,
+    "name": "丝柯克",
+    "englishName": "Skirk",
+    "pinyin": "sikeke",
+    "aliases": [
+      "skk"
+    ],
+    "child": [
+      {
+        "id": 11161,
+        "name": "极恶技·断"
+      },
+      {
+        "id": 11162,
+        "name": "极恶技·闪"
+      },
+      {
+        "id": 11165,
+        "name": "极恶技·尽"
+      },
+      {
+        "id": 11164,
+        "name": "理外之理"
+      }
+    ]
+  },
+  {
+    "id": 211161,
+    "name": "湮远",
+    "englishName": "Far to Fall",
+    "pinyin": "yanyuan",
+    "aliases": [
+      "yy",
+      "丝柯克天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 214161,
+    "name": "林雾间的行迹",
+    "englishName": "Trails Amidst the Forest Fog",
+    "pinyin": "linwujiandexingji",
+    "aliases": [
+      "lwjdxj",
+      "欧洛伦天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 222071,
+    "name": "亡水溢流",
+    "englishName": "Deathly Overflow",
+    "pinyin": "wangshuiyiliu",
+    "aliases": [
+      "wsyl",
+      "圣骸角鳄天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 300008,
+    "name": "驱逐灾厄",
+    "englishName": "Disperse the Calamity",
+    "pinyin": "quzhuzaie",
+    "aliases": [
+      "qzze"
+    ],
+    "child": []
+  },
+  {
+    "id": 300009,
+    "name": "肃净污染",
+    "englishName": "Sanctify the Defiled",
+    "pinyin": "sujingwuran",
+    "aliases": [
+      "sjwr"
+    ],
+    "child": []
+  },
+  {
+    "id": 311112,
+    "name": "祭星者之望",
+    "englishName": "Starcaller's Watch",
+    "pinyin": "jixingzhezhiwang",
+    "aliases": [
+      "jxzzw"
+    ],
+    "child": []
+  },
+  {
+    "id": 311310,
+    "name": "拾慧铸熔",
+    "englishName": "Flame-Forged Insight",
+    "pinyin": "shihuizhurong",
+    "aliases": [
+      "shzr"
+    ],
+    "child": []
+  },
+  {
+    "id": 312044,
+    "name": "被浸染的缨盔",
+    "englishName": "Dyed Tassel",
+    "pinyin": "beijinrandeyingkui",
+    "aliases": [
+      "bjrdyk"
+    ],
+    "child": [
+      {
+        "id": 169,
+        "name": "高效切换"
+      }
+    ]
+  },
+  {
+    "id": 321034,
+    "name": "天蛇船",
+    "englishName": "Tonatiuh",
+    "pinyin": "tianshechuan",
+    "aliases": [
+      "tsc"
+    ],
+    "child": []
+  },
+  {
+    "id": 322032,
+    "name": "玻娜与「绿松石」",
+    "englishName": "Bona and \"Cocouik\"",
+    "pinyin": "bonayu「lvsongshi」",
+    "aliases": [
+      "bny「lss」"
+    ],
+    "child": []
+  },
+  {
+    "id": 332053,
+    "name": "破碎之海",
+    "englishName": "Broken Sea",
+    "pinyin": "posuizhihai",
+    "aliases": [
+      "pszh"
+    ],
+    "child": []
+  },
+  {
+    "id": 332059,
+    "name": "「穿越晨霭的冒险」",
+    "englishName": "\"An Adventure Through the Morning Mist\"",
+    "pinyin": "「chuanyuechenaidemaoxian」",
+    "aliases": [
+      "「cycadmx」"
+    ],
+    "child": []
   }
 ]
