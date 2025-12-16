@@ -1,6 +1,6 @@
 ## nonebot七圣卡图生成插件
 
-如需部署，自己搭建后端服务[beautiful-card-img-gen](https://github.com/genius-invokation/beautiful-card-img-gen) 然后改代码，装插件。
+如需部署，自己搭建后端服务[new-card-img-gen](https://github.com/piovium/new-card-img-gen) 然后改代码，装插件。
 
 别名文件在`map`文件夹下，`NameMap.json` 是 bot 读取的版本。
 
