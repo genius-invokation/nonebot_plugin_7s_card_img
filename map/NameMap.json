@@ -9500,7 +9500,8 @@
     "pinyin": "ouluolun",
     "aliases": [
       "oll",
-      "孙子"
+      "孙子",
+      "大孙子"
     ],
     "child": [
       {
@@ -9613,7 +9614,8 @@
     "englishName": "Flame-Forged Insight",
     "pinyin": "shihuizhurong",
     "aliases": [
-      "shzr"
+      "shzr",
+      "公义大剑"
     ],
     "child": []
   },
@@ -9640,10 +9642,6 @@
       "奥奇卡纳塔"
     ],
     "child": [
-      {
-        "id": 172,
-        "name": "战斗计划"
-      },
       {
         "id": 301041,
         "name": "回天的圣主"
