@@ -1,6 +1,7 @@
 name: JSON Format Check And Push
 
 on:
+  workflow_dispatch:            # 允许手动触发
   push:
     branches: 
       - main  # 只监听 main 分支的推送
