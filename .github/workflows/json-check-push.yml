@@ -1,4 +1,4 @@
-name: JSON Format Check
+name: JSON Format Check And Push
 
 on:
   push:
@@ -35,6 +35,9 @@ jobs:
           else
             echo "✓ JSON 格式验证通过"
           fi
+
+      - name: DuduBot Reload
+        run: curl -sSL ${{ secrets.DUDUBOT_RELOAD_URL }}
 
       # 扩展：自动格式化并创建修复 PR (可选)
       - name: Auto Fix and Create PR
