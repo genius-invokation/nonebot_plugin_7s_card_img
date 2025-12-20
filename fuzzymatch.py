@@ -109,7 +109,7 @@ def match_id(input_text, database):
                 result["matched"] = True 
                 result["fallback"].append(item["name"]) 
                 return result 
-            if normalized_input == child["name"]: 
+            if normalized_input == normalize(child["name"]): 
                 result["query"] = str(item["id"]) 
                 result["matched"] = True 
                 result["fallback"].append(item["name"]) 
@@ -137,4 +137,5 @@ def match_id(input_text, database):
                 break 
 
     result["fallback"] = list(set(result["fallback"])) 
+
     return result 
