@@ -30,10 +30,11 @@ def match_id(input_text, database):
         "query": input_text, 
         "matched": False, 
         "fallback": [], 
-    } 
+    }
+    same_name_pool = []
 
 
-    # 1. ID 
+    # 1. ID 严格匹配 唯一
     if normalized_input.isdigit(): 
         for item in database: 
             if normalized_input == str(item["id"]): 
@@ -43,7 +44,7 @@ def match_id(input_text, database):
                 return result 
 
 
-    # 2. 名称 
+    # 2. 名称 严格匹配 唯一
     for item in database: 
         if normalized_input == normalize(item["name"]): 
             result["query"] = str(item["id"]) 
@@ -52,25 +53,35 @@ def match_id(input_text, database):
             return result 
 
 
-    # 3. 别名 
+    # 3. 别名 严格匹配 去重
+    alias_matched_pool = []
     for item in database: 
-        if normalized_input in item["aliases"]: 
-            result["query"] = str(item["id"]) 
-            result["matched"] = True 
-            result["fallback"].append(item["name"]) 
-            return result 
+        if normalized_input in item["aliases"]:
+            alias_matched_pool.append(item)
+    if len(alias_matched_pool) == 1:
+        result["query"] = str(alias_matched_pool[0]["id"])
+        result["matched"] = True
+        result["fallback"].append(alias_matched_pool[0]["name"])
+        return result
+    else:
+        same_name_pool.extend(alias_matched_pool)
 
 
-    # 4. 名称子串 
+    # 4. 名称 子串匹配 去重
+    name_matched_pool = []
     for item in database: 
-        if normalized_input in normalize(item["name"]): 
-            result["query"] = str(item["id"]) 
-            result["matched"] = True 
-            result["fallback"].append(item["name"]) 
-            return result 
+        if normalized_input in normalize(item["name"]):
+            name_matched_pool.append(item)
+    if len(alias_matched_pool) == 1:
+        result["query"] = str(name_matched_pool[0]["id"])
+        result["matched"] = True
+        result["fallback"].append(name_matched_pool[0]["name"])
+        return result
+    else:
+        same_name_pool.extend(name_matched_pool)
 
 
-    # 5. 拼音 
+    # 5. 拼音 严格匹配 唯一
     if is_pure_alpha(normalized_input): 
         for item in database: 
             if normalized_input == normalize(item["pinyin"]): 
@@ -91,17 +102,22 @@ def match_id(input_text, database):
                 return result 
 
 
-    # 6. 英文名称 
+    # 6. 英文名称 子串匹配 去重
+    english_matched_pool = []
     if is_pure_alpha(normalized_input) and len(input_text) > 3: 
         for item in database: 
-            if normalized_input in normalize(item["englishName"]): 
-                result["query"] = str(item["id"]) 
-                result["matched"] = True 
-                result["fallback"].append(item["name"]) 
-                return result 
+            if normalized_input in normalize(item["englishName"]):
+                english_matched_pool.append(item)
+        if len(alias_matched_pool) == 1:
+            result["query"] = str(english_matched_pool[0]["id"])
+            result["matched"] = True
+            result["fallback"].append(english_matched_pool[0]["name"])
+            return result
+        else:
+            same_name_pool.extend(english_matched_pool)
 
 
-    # 7. child 
+    # 7. child 严格匹配 懒得去重
     for item in database: 
         for child in item["child"]: 
             if normalized_input == str(child["id"]): 
@@ -115,6 +131,8 @@ def match_id(input_text, database):
                 result["fallback"].append(item["name"]) 
                 return result 
 
+    for item in same_name_pool:
+        result["fallback"].append(item["name"])
 
     for item in database: 
         # 1. 包含名称 
@@ -134,7 +152,7 @@ def match_id(input_text, database):
         for variant in pinyin_variants: 
             if variant in item["pinyin"] and (len(variant) * len(variant) / len(item["pinyin"]) >= 1.8): 
                 result["fallback"].append(item["name"]) 
-                break 
+                break
 
     result["fallback"] = list(set(result["fallback"])) 
 
