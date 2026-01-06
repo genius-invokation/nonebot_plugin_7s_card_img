@@ -24,7 +24,6 @@ jobs:
           git diff --name-only HEAD^ HEAD -- 'map/NameMap.json' | grep . && echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Validate JSON
-        if: steps.changes.outputs.changed == 'true'
         run: |
           # 安装 jq 工具
           sudo apt-get install -y jq
@@ -37,7 +36,24 @@ jobs:
             echo "✓ JSON 格式验证通过"
           fi
 
+      - name: Upload NameMap.json to COS
+        uses: zk-df/tencent-cos-action@v0.1.0
+        with:
+          secret_id: ${{ secrets.TENCENTCLOUD_AK }}
+          secret_key: ${{ secrets.TENCENTCLOUD_SK }}
+          bucket: ${{ secrets.COS_BUCKET }}
+          region: ${{ secrets.COS_REGION }}
+          
+          # 本地文件路径
+          local_path: map/NameMap.json
+          
+          # 远程 COS 上的目标目录。
+          # 如果写 '/'，文件将上传到根目录 (e.g. bucket/NameMap.json)
+          # 如果写 '/map'，文件将上传到 map 文件夹下 (e.g. bucket/map/NameMap.json)
+          remote_dir: /map
+
       - name: DuduBot Reload
+        if: steps.changes.outputs.changed == 'true'
         run: curl -sSL ${{ secrets.DUDUBOT_RELOAD_URL }}
 
       # 扩展：自动格式化并创建修复 PR (可选)
