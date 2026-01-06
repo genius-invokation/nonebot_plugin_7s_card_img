@@ -37,20 +37,15 @@ jobs:
           fi
 
       - name: Upload NameMap.json to COS
-        uses: zk-df/tencent-cos-action@v0.1.0
+        uses: TencentCloud/cos-action@v1
         with:
           secret_id: ${{ secrets.TENCENTCLOUD_AK }}
           secret_key: ${{ secrets.TENCENTCLOUD_SK }}
           bucket: ${{ secrets.COS_BUCKET }}
           region: ${{ secrets.COS_REGION }}
           
-          # 本地文件路径
           local_path: map/NameMap.json
-          
-          # 远程 COS 上的目标目录。
-          # 如果写 '/'，文件将上传到根目录 (e.g. bucket/NameMap.json)
-          # 如果写 '/map'，文件将上传到 map 文件夹下 (e.g. bucket/map/NameMap.json)
-          remote_dir: /map
+          remote_path: map/NameMap.json
 
       - name: DuduBot Reload
         if: steps.changes.outputs.changed == 'true'
