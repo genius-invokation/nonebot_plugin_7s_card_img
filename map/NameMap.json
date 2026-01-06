@@ -298,8 +298,7 @@
     "pinyin": "xialuodi",
     "aliases": [
       "xld",
-      "小记者",
-      "菱"
+      "小记者"
     ],
     "child": [
       {
@@ -1050,9 +1049,7 @@
     "englishName": "Amber",
     "pinyin": "anbo",
     "aliases": [
-      "ab",
-      "Anya",
-      "雅雅"
+      "ab"
     ],
     "child": [
       {
@@ -2818,7 +2815,6 @@
     "pinyin": "baizhu",
     "aliases": [
       "bz",
-      "白术儿",
       "白大夫"
     ],
     "child": [
@@ -3032,9 +3028,8 @@
     "englishName": "Fatui Cryo Cicin Mage",
     "pinyin": "yurenzhong·bingyingshushi",
     "aliases": [
+      "yrzbyss",
       "byss",
-      "冰萤术士",
-      "冰莹术士",
       "冰术士"
     ],
     "child": [
@@ -3066,7 +3061,6 @@
     "englishName": "La Signora",
     "pinyin": "nvshi",
     "aliases": [
-      "女士",
       "ns",
       "罗莎琳"
     ],
@@ -3147,7 +3141,7 @@
     "englishName": "Frost Operative",
     "pinyin": "yurenzhong·shuangyiren",
     "aliases": [
-      "霜役人",
+      "yrzsyr",
       "syr"
     ],
     "child": [
@@ -3180,7 +3174,8 @@
     "pinyin": "chunshuijingling·luodiya",
     "aliases": [
       "csjl",
-      "纯水精灵",
+      "ldy",
+      "csjlldy",
       "飞鸢",
       "花鼠",
       "青蛙",
@@ -3215,8 +3210,9 @@
     "englishName": "Mirror Maiden",
     "pinyin": "yurenzhong·cangjingshinv",
     "aliases": [
-      "藏镜仕女",
-      "cjsn"
+      "yrzcjsn",
+      "cjsn",
+      "镜女"
     ],
     "child": [
       {
@@ -3243,10 +3239,9 @@
     "englishName": "Abyss Herald: Wicked Torrents",
     "pinyin": "shenyuanshitu·jiliu",
     "aliases": [
-      "激流",
       "水使徒",
       "jl",
-      "sst"
+      "systjl"
     ],
     "child": [
       {
@@ -3283,6 +3278,7 @@
     "aliases": [
       "吞天之鲸",
       "鲸鱼",
+      "🐳",
       "txzj"
     ],
     "child": [
@@ -3358,10 +3354,11 @@
     "englishName": "Fatui Pyro Agent",
     "pinyin": "yurenzhong·huozhizhaiwuchuliren",
     "aliases": [
-      "火之债务处理人",
       "讨债人",
       "火债人",
-      "tzr"
+      "tzr",
+      "hzzwclr",
+      "yrzhzzwclr"
     ],
     "child": [
       {
@@ -3393,10 +3390,12 @@
     "pinyin": "shenyuanyongzhe·yuanhuo",
     "aliases": [
       "yh",
-      "渊火",
+      "syyzyh",
       "火使徒",
       "火咏者",
-      "渊上"
+      "渊上",
+      "谷中",
+      "山下"
     ],
     "child": [
       {
@@ -3428,9 +3427,11 @@
     "pinyin": "dujinlvtuan·chishaxushiren",
     "aliases": [
       "csxsr",
+      "djltcsxsr",
       "炽沙叙事人",
       "火镀金旅团",
-      "主母"
+      "主母",
+      "火主母"
     ],
     "child": [
       {
@@ -3470,6 +3471,10 @@
     "pinyin": "tiejiaronghuodihuang",
     "aliases": [
       "螃蟹",
+      "蟹",
+      "蟹帝",
+      "蟹皇",
+      "🦀",
       "px",
       "tjrhdh"
     ],
@@ -3745,9 +3750,8 @@
     "englishName": "Fatui Electro Cicin Mage",
     "pinyin": "yurenzhong·leiyingshushi",
     "aliases": [
-      "雷萤术士",
       "lyss",
-      "雷莹术士",
+      "yrzlyss",
       "雷术士"
     ],
     "child": [
@@ -3786,7 +3790,9 @@
       "毒蝎",
       "雷蝎",
       "蝎子",
-      "shdx"
+      "shdx",
+      "雷圣骸兽",
+      "🦂"
     ],
     "child": [
       {
@@ -3817,10 +3823,10 @@
     "englishName": "Abyss Lector: Violet Lightning",
     "pinyin": "shenyuanyongzhe·zidian",
     "aliases": [
-      "紫电",
       "雷使徒",
       "雷咏者",
-      "zd"
+      "zd",
+      "syyzzd"
     ],
     "child": [
       {
@@ -3851,8 +3857,7 @@
     "englishName": "Maguu Kenki",
     "pinyin": "mooujiangui",
     "aliases": [
-      "mojg",
-      "剑鬼"
+      "mojg"
     ],
     "child": [
       {
@@ -3930,7 +3935,9 @@
     "aliases": [
       "飞蛇",
       "风蛇",
-      "shfs"
+      "shfs",
+      "风圣骸兽",
+      "🐍"
     ],
     "child": [
       {
@@ -3995,8 +4002,6 @@
     "pinyin": "retuolongwang",
     "aliases": [
       "rtlw",
-      "坨子哥",
-      "驼子哥",
       "陀子哥"
     ],
     "child": [
@@ -4142,7 +4147,7 @@
     "pinyin": "dujinlvtuan·yelunwuzhe",
     "aliases": [
       "ylwz",
-      "叶轮舞者",
+      "djltylwz",
       "草镀金旅团"
     ],
     "child": [
@@ -5498,7 +5503,6 @@
     "pinyin": "qianyefumeng",
     "aliases": [
       "qyfm",
-      "千夜",
       "夜壶"
     ],
     "child": []
@@ -5509,7 +5513,6 @@
     "englishName": "Fruit of Fulfillment",
     "pinyin": "yingmanzhishi",
     "aliases": [
-      "盈满",
       "果子",
       "ymzs"
     ],
@@ -5521,7 +5524,6 @@
     "englishName": "Lost Prayer to the Sacred Winds",
     "pinyin": "sifengyuandian",
     "aliases": [
-      "四风",
       "sfyd"
     ],
     "child": []
@@ -5544,8 +5546,7 @@
     "pinyin": "wanshiliuyongdadian",
     "aliases": [
       "wslydd",
-      "万世涌流大典",
-      "大典"
+      "万世涌流大典"
     ],
     "child": []
   },
@@ -5555,7 +5556,8 @@
     "englishName": "Cashflow Supervision",
     "pinyin": "jinliujiandu",
     "aliases": [
-      "jljd"
+      "jljd",
+      "无人机"
     ],
     "child": []
   },
@@ -5595,7 +5597,8 @@
     "englishName": "Skyward Harp",
     "pinyin": "tiankongzhiyi",
     "aliases": [
-      "tkzy"
+      "tkzy",
+      "天空弓"
     ],
     "child": []
   },
@@ -5605,7 +5608,6 @@
     "englishName": "Amos' Bow",
     "pinyin": "amosizhigong",
     "aliases": [
-      "阿莫斯",
       "ams",
       "amszg"
     ],
@@ -5618,7 +5620,6 @@
     "pinyin": "zhongmojietanzhishi",
     "aliases": [
       "zmjtzs",
-      "终末",
       "终末弓"
     ],
     "child": [
@@ -5634,7 +5635,6 @@
     "englishName": "King's Squire",
     "pinyin": "wangxiajinshi",
     "aliases": [
-      "王下",
       "王下弓",
       "wxjs"
     ],
@@ -5646,7 +5646,6 @@
     "englishName": "End of the Line",
     "pinyin": "jieze",
     "aliases": [
-      "竭泽",
       "鱼弓",
       "jz"
     ],
@@ -5669,8 +5668,7 @@
     "englishName": "Sacrificial Greatsword",
     "pinyin": "jilidajian",
     "aliases": [
-      "jldj",
-      "祭礼大剑"
+      "jldj"
     ],
     "child": []
   },
@@ -5703,7 +5701,6 @@
     "pinyin": "zhongjian",
     "aliases": [
       "zj",
-      "钟剑",
       "盾剑"
     ],
     "child": []
@@ -5714,7 +5711,6 @@
     "englishName": "Beacon of the Reed Sea",
     "pinyin": "weihaixinbiao",
     "aliases": [
-      "信标",
       "whxb"
     ],
     "child": []
@@ -5736,6 +5732,7 @@
     "pinyin": "「jiujibawangchaojimojian」",
     "aliases": [
       "jjbwcjmj",
+      "霸王剑",
       "极霸剑"
     ],
     "child": []
@@ -5789,7 +5786,7 @@
     "englishName": "Vortex Vanquisher",
     "pinyin": "guanhongzhishuo",
     "aliases": [
-      "贯虹",
+      "盾枪",
       "ghzs"
     ],
     "child": []
@@ -5812,8 +5809,7 @@
     "englishName": "Moonpiercer",
     "pinyin": "guanyueshi",
     "aliases": [
-      "gys",
-      "贯月"
+      "gys"
     ],
     "child": []
   },
@@ -5835,8 +5831,7 @@
     "englishName": "Rightful Reward",
     "pinyin": "gongyidechoubao",
     "aliases": [
-      "gydcb",
-      "公义"
+      "gydcb"
     ],
     "child": []
   },
@@ -5846,7 +5841,6 @@
     "englishName": "Prospector's Drill",
     "pinyin": "kantanzuanji",
     "aliases": [
-      "钻机",
       "钻头",
       "ktzj"
     ],
@@ -5899,8 +5893,7 @@
     "englishName": "Favonius Sword",
     "pinyin": "xifengjian",
     "aliases": [
-      "xfj",
-      "西风剑"
+      "xfj"
     ],
     "child": []
   },
@@ -5911,7 +5904,6 @@
     "pinyin": "caiyecuiguang",
     "aliases": [
       "cycg",
-      "裁叶",
       "绿刀"
     ],
     "child": []
@@ -5932,7 +5924,6 @@
     "englishName": "Splendor of Tranquil Waters",
     "pinyin": "jingshuiliuyongzhihui",
     "aliases": [
-      "静水",
       "jslyzh"
     ],
     "child": []
@@ -5954,7 +5945,6 @@
     "englishName": "Adventurer's Bandana",
     "pinyin": "maoxianjiatoudai",
     "aliases": [
-      "冒险家",
       "mxjtd"
     ],
     "child": []
@@ -5965,7 +5955,6 @@
     "englishName": "Lucky Dog's Silver Circlet",
     "pinyin": "xingyuneryinguan",
     "aliases": [
-      "幸运儿",
       "xyeyg"
     ],
     "child": []
@@ -5976,7 +5965,6 @@
     "englishName": "Traveling Doctor's Handkerchief",
     "pinyin": "youyidefangjin",
     "aliases": [
-      "游医",
       "yydfj"
     ],
     "child": []
@@ -5987,8 +5975,7 @@
     "englishName": "Gambler's Earrings",
     "pinyin": "dutudeerhuan",
     "aliases": [
-      "dtdeh",
-      "赌徒"
+      "dtdeh"
     ],
     "child": []
   },
@@ -5998,8 +5985,7 @@
     "englishName": "Instructor's Cap",
     "pinyin": "jiaoguandemaozi",
     "aliases": [
-      "jgdmz",
-      "教官"
+      "jgdmz"
     ],
     "child": []
   },
@@ -6009,7 +5995,6 @@
     "englishName": "Exile's Circlet",
     "pinyin": "liufangzhetouguan",
     "aliases": [
-      "流放者",
       "lfztg"
     ],
     "child": []
@@ -6302,8 +6287,7 @@
     "englishName": "Gladiator's Triumphus",
     "pinyin": "juedoushidekaixuan",
     "aliases": [
-      "jdsdkx",
-      "角斗士"
+      "jdsdkx"
     ],
     "child": []
   },
@@ -6314,8 +6298,6 @@
     "pinyin": "zhihuidelimao",
     "aliases": [
       "zhdlm",
-      "礼帽",
-      "礼貌",
       "乐团帽",
       "乐团头",
       "小乐团"
@@ -6704,7 +6686,6 @@
     "englishName": "Tatankasaurus",
     "pinyin": "tujiaolong",
     "aliases": [
-      "突角龙",
       "tjl"
     ],
     "child": [
@@ -6721,7 +6702,6 @@
     "pinyin": "ya！ya！",
     "aliases": [
       "yy",
-      "呀呀",
       "小龙"
     ],
     "child": [
@@ -6738,7 +6718,7 @@
     "pinyin": "liyuegangkou",
     "aliases": [
       "lygk",
-      "璃月港"
+      "lyg"
     ],
     "child": []
   },
@@ -6748,8 +6728,7 @@
     "englishName": "Knights of Favonius Library",
     "pinyin": "qishituantushuguan",
     "aliases": [
-      "qsttsg",
-      "图书馆"
+      "qsttsg"
     ],
     "child": []
   },
@@ -6769,7 +6748,6 @@
     "englishName": "Dawn Winery",
     "pinyin": "chenxijiuzhuang",
     "aliases": [
-      "酒庄",
       "cxjz"
     ],
     "child": []
@@ -6842,10 +6820,7 @@
     "pinyin": "huannalanna",
     "aliases": [
       "萝卜村",
-      "恒纳兰那",
       "恒那兰那",
-      "恒那兰纳",
-      "恒纳兰纳",
       "hnln"
     ],
     "child": []
@@ -6876,7 +6851,8 @@
     "englishName": "Gandharva Ville",
     "pinyin": "huachengguo",
     "aliases": [
-      "hcg"
+      "hcg",
+      "化成鸽"
     ],
     "child": []
   },
@@ -6896,8 +6872,7 @@
     "englishName": "Weeping Willow of the Lake",
     "pinyin": "huzhongchuiliu",
     "aliases": [
-      "hzcl",
-      "垂柳"
+      "hzcl"
     ],
     "child": []
   },
@@ -6972,7 +6947,6 @@
     "englishName": "Central Laboratory Ruins",
     "pinyin": "zhongyangshiyanshiyizhi",
     "aliases": [
-      "实验室遗址",
       "zysysyz"
     ],
     "child": []
@@ -6983,8 +6957,7 @@
     "englishName": "Stadium of the Sacred Flame",
     "pinyin": "shenghuojingjichang",
     "aliases": [
-      "shjjc",
-      "竞技场"
+      "shjjc"
     ],
     "child": []
   },
@@ -7004,7 +6977,6 @@
     "englishName": "\"Scions of the Canopy\"",
     "pinyin": "「xuanmuren」",
     "aliases": [
-      "悬木人",
       "xmr"
     ],
     "child": []
@@ -7015,7 +6987,6 @@
     "englishName": "\"People of the Springs\"",
     "pinyin": "「liuquanzhizhong」",
     "aliases": [
-      "流泉之众",
       "lqzz"
     ],
     "child": []
@@ -7026,8 +6997,7 @@
     "englishName": "\"Flower-Feather Clan\"",
     "pinyin": "「huayuhui」",
     "aliases": [
-      "hyh",
-      "花羽会"
+      "hyh"
     ],
     "child": []
   },
@@ -7037,7 +7007,6 @@
     "englishName": "\"Masters of the Night-Wind\"",
     "pinyin": "「yanmizhu」",
     "aliases": [
-      "烟谜主",
       "ymz"
     ],
     "child": []
@@ -7048,7 +7017,6 @@
     "englishName": "\"Collective of Plenty\"",
     "pinyin": "「woluzhibang」",
     "aliases": [
-      "沃陆之邦",
       "wlzb"
     ],
     "child": [
@@ -7076,8 +7044,7 @@
     "englishName": "Katheryne",
     "pinyin": "kaiselin",
     "aliases": [
-      "ksl",
-      "凯瑟琳"
+      "ksl"
     ],
     "child": []
   },
@@ -7117,7 +7084,8 @@
     "englishName": "Tubby",
     "pinyin": "ayuan",
     "aliases": [
-      "ay"
+      "ay",
+      "壶灵"
     ],
     "child": []
   },
@@ -7137,8 +7105,7 @@
     "englishName": "Liben",
     "pinyin": "liben",
     "aliases": [
-      "lb",
-      "立本"
+      "lb"
     ],
     "child": []
   },
@@ -7218,8 +7185,7 @@
     "englishName": "Dunyarzad",
     "pinyin": "dinazedai",
     "aliases": [
-      "dnzd",
-      "迪"
+      "dnzd"
     ],
     "child": []
   },
@@ -7321,8 +7287,7 @@
     "englishName": "The White Glove and the Fisherman",
     "pinyin": "baishoutaoheyufu",
     "aliases": [
-      "bsthyf",
-      "清洁工作"
+      "bsthyf"
     ],
     "child": [
       {
@@ -7348,7 +7313,6 @@
     "pinyin": "selin",
     "aliases": [
       "sl",
-      "瑟琳",
       "瑟神",
       "美露莘的声援",
       "洛梅",
@@ -7505,9 +7469,7 @@
     "pinyin": "jiushitingyuan",
     "aliases": [
       "jsty",
-      "旧日庭园",
-      "庭院",
-      "庭苑"
+      "旧日庭园"
     ],
     "child": []
   },
@@ -7617,7 +7579,6 @@
     "pinyin": "wei「si」erzhan",
     "aliases": [
       "wsez",
-      "为死而战",
       "队长"
     ],
     "child": []
@@ -8029,6 +7990,7 @@
     "aliases": [
       "愚人众",
       "愚人众伏兵",
+      "愚人众共鸣",
       "yrzdym"
     ],
     "child": []
@@ -8163,7 +8125,8 @@
     "pinyin": "jiguanzhuchengzhilian",
     "aliases": [
       "jgzczl",
-      "机关链"
+      "机关链",
+      "链子"
     ],
     "child": []
   },
@@ -8212,7 +8175,6 @@
     "pinyin": "huanxidaojishi：3",
     "aliases": [
       "hxdjs",
-      "幻戏倒计时",
       "幻戏倒计时：2",
       "幻戏倒计时：1",
       "幻戏开始"
@@ -8239,7 +8201,6 @@
     "pinyin": "dengdeng！",
     "aliases": [
       "dd",
-      "噔噔",
       "小琳妮特"
     ],
     "child": []
@@ -8262,7 +8223,6 @@
     "aliases": [
       "镀金旅团共鸣",
       "旅团共鸣",
-      "武器共鸣",
       "djltdcx"
     ],
     "child": []
@@ -8273,7 +8233,7 @@
     "englishName": "Ultimate Surfing Buddy!",
     "pinyin": "qiangjingchonglangpaidang！",
     "aliases": [
-      "qjclpd！"
+      "qjclpd"
     ],
     "child": []
   },
@@ -8577,12 +8537,7 @@
       "wmpxyyn",
       "蓝砚天赋"
     ],
-    "child": [
-      {
-        "id": 115121,
-        "name": "凤缕护盾"
-      }
-    ]
+    "child": []
   },
   {
     "id": 215131,
@@ -8594,12 +8549,7 @@
       "鹿野院平藏天赋",
       "小鹿天赋"
     ],
-    "child": [
-      {
-        "id": 115132,
-        "name": "变格"
-      }
-    ]
+    "child": []
   },
   {
     "id": 227041,
@@ -8897,8 +8847,7 @@
       "大生命之契",
       "大契套",
       "生命之契套",
-      "契套",
-      "斜率"
+      "契套"
     ],
     "child": [
       {
@@ -9410,7 +9359,8 @@
     "aliases": [
       "sxszdmx",
       "水仙十字院",
-      "纯水院长"
+      "纯水院长",
+      "冒险共鸣"
     ],
     "child": []
   },
@@ -9546,7 +9496,8 @@
     "aliases": [
       "shje",
       "水圣骸兽",
-      "鳄鱼"
+      "鳄鱼",
+      "🐊"
     ],
     "child": [
       {
