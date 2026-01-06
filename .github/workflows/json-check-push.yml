@@ -4,9 +4,9 @@ on:
   workflow_dispatch:            # 允许手动触发
   push:
     branches: 
-      - main  # 只监听 main 分支的推送
+      - main
     paths: 
-      - 'map/NameMap.json'  # 只在该 JSON 文件变更时触发
+      - 'map/NameMap.json'
 
 jobs:
   validate-json:
@@ -15,66 +15,68 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整历史记录
+          fetch-depth: 0
 
       - name: Identify Changed JSON
         id: changes
         run: |
-          # 默认设为 false
           CHANGED="false"
-          
-          # 1. 如果是手动触发 (workflow_dispatch)，强制设为 true
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            echo "手动触发，强制执行验证。"
+            echo "手动触发，强制执行。"
             CHANGED="true"
           else
-            # 2. 检查文件变更
-            # 使用 || true 防止 git diff 在某些边缘情况报错
-            # 使用 grep -q (quiet) 并不直接输出，而是通过 if 判断
             if git diff --name-only HEAD^ HEAD -- 'map/NameMap.json' | grep -q .; then
-              echo "检测到 NameMap.json 发生变更。"
+              echo "检测到变更。"
               CHANGED="true"
             else
-              echo "未检测到 NameMap.json 变更。"
+              echo "未检测到变更。"
             fi
           fi
-          
-          # 输出结果到 GITHUB_OUTPUT
           echo "changed=$CHANGED" >> $GITHUB_OUTPUT
 
       - name: Validate JSON
+        if: steps.changes.outputs.changed == 'true'
         run: |
-          # 安装 jq 工具
           sudo apt-get install -y jq
-
-          echo "正在验证 JSON 格式..."
           if ! jq empty map/NameMap.json; then
-            echo "::error::JSON 格式错误！请修复后重新提交"
+            echo "::error::JSON 格式错误！"
             exit 1
           else
             echo "✓ JSON 格式验证通过"
           fi
 
-      - name: Upload NameMap.json to COS
-        uses: TencentCloud/cos-action@v1
-        with:
-          secret_id: ${{ secrets.TENCENTCLOUD_AK }}
-          secret_key: ${{ secrets.TENCENTCLOUD_SK }}
-          bucket: ${{ secrets.COS_BUCKET }}
-          region: ${{ secrets.COS_REGION }}
+      # ---------------------------------------------------
+      # 修改部分：使用 coscmd 替代旧的 Action
+      # ---------------------------------------------------
+      - name: Install and Configure coscmd
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          SECRET_ID: ${{ secrets.TENCENTCLOUD_AK }}
+          SECRET_KEY: ${{ secrets.TENCENTCLOUD_SK }}
+          BUCKET: ${{ secrets.COS_BUCKET }}
+          REGION: ${{ secrets.COS_REGION }}
+        run: |
+          # 1. 安装腾讯云 COS 命令行工具
+          sudo pip install coscmd
           
-          local_path: map/NameMap.json
-          remote_path: map/NameMap.json
+          # 2. 配置 (注意：Bucket 需要带上 AppID 后缀，Region 需要是 ap-xxx 格式)
+          coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+
+      - name: Upload NameMap.json to COS
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          echo "开始上传..."
+          # upload <本地路径> <远程路径>
+          coscmd upload map/NameMap.json map/NameMap.json
+      # ---------------------------------------------------
 
       - name: DuduBot Reload
         if: steps.changes.outputs.changed == 'true'
         run: curl -sSL ${{ secrets.DUDUBOT_RELOAD_URL }}
 
-      # 扩展：自动格式化并创建修复 PR (可选)
       - name: Auto Fix and Create PR
         if: failure() && steps.changes.outputs.changed == 'true'
         run: |
-          echo "尝试自动修复格式问题..."
           sudo apt-get install -y jq
           jq . map/NameMap.json > fixed.json && mv fixed.json map/NameMap.json
           
