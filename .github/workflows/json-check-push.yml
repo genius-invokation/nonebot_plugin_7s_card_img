@@ -20,8 +20,27 @@ jobs:
       - name: Identify Changed JSON
         id: changes
         run: |
-          # 检查是否修改了目标文件
-          git diff --name-only HEAD^ HEAD -- 'map/NameMap.json' | grep . && echo "changed=true" >> $GITHUB_OUTPUT
+          # 默认设为 false
+          CHANGED="false"
+          
+          # 1. 如果是手动触发 (workflow_dispatch)，强制设为 true
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "手动触发，强制执行验证。"
+            CHANGED="true"
+          else
+            # 2. 检查文件变更
+            # 使用 || true 防止 git diff 在某些边缘情况报错
+            # 使用 grep -q (quiet) 并不直接输出，而是通过 if 判断
+            if git diff --name-only HEAD^ HEAD -- 'map/NameMap.json' | grep -q .; then
+              echo "检测到 NameMap.json 发生变更。"
+              CHANGED="true"
+            else
+              echo "未检测到 NameMap.json 变更。"
+            fi
+          fi
+          
+          # 输出结果到 GITHUB_OUTPUT
+          echo "changed=$CHANGED" >> $GITHUB_OUTPUT
 
       - name: Validate JSON
         run: |
