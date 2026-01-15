@@ -9686,7 +9686,8 @@
     "englishName": "Ineffa",
     "pinyin": "yiniefu",
     "aliases": [
-      "ynf"
+      "ynf",
+      "机娘"
     ],
     "child": [
       {
@@ -9698,8 +9699,8 @@
         "name": "涤净模式·稳态载频"
       },
       {
-        "id": 203,
-        "name": "护盾"
+        "id": 205,
+        "name": "雷暴云"
       },
       {
         "id": 114171,
@@ -9708,10 +9709,6 @@
       {
         "id": 14173,
         "name": "至高律令·全域扫灭"
-      },
-      {
-        "id": 114171,
-        "name": "薇尔琪塔"
       },
       {
         "id": 14174,
@@ -9733,7 +9730,9 @@
     "englishName": "",
     "pinyin": "jinyanrongyilongbaojun",
     "aliases": [
-      "jyrylbj"
+      "jyrylbj",
+      "绒翼龙王",
+      "大绒翼龙"
     ],
     "child": [
       {
@@ -9751,10 +9750,6 @@
       {
         "id": 23063,
         "name": "金焰爆轰"
-      },
-      {
-        "id": 123061,
-        "name": "金焰形态"
       },
       {
         "id": 23064,
@@ -9777,14 +9772,6 @@
     ],
     "child": [
       {
-        "id": 111171,
-        "name": "灵风"
-      },
-      {
-        "id": 111174,
-        "name": "侦明"
-      },
-      {
         "id": 111175,
         "name": "速射牵制"
       }
@@ -9797,7 +9784,8 @@
     "pinyin": "xunhuanzhengliuyinqing",
     "aliases": [
       "xhzlyq",
-      "伊涅芙天赋"
+      "伊涅芙天赋",
+      "机娘天赋"
     ],
     "child": []
   },
@@ -9807,19 +9795,12 @@
     "englishName": "Flamelord's Blessing",
     "pinyin": "「yanzhuzhizhu」",
     "aliases": [
-      "「yzzz」",
-      "金焰绒翼龙暴君天赋"
+      "yzzz",
+      "金焰绒翼龙暴君天赋",
+      "绒翼龙天赋",
+      "金焰天赋"
     ],
-    "child": [
-      {
-        "id": 123061,
-        "name": "金焰形态"
-      },
-      {
-        "id": 123061,
-        "name": "金焰形态"
-      }
-    ]
+    "child": []
   },
   {
     "id": 321035,
@@ -9837,7 +9818,9 @@
     "englishName": "Tideseal Stone",
     "pinyin": "xiyinshi",
     "aliases": [
-      "xys"
+      "xys",
+      "狂猎",
+      "封印石"
     ],
     "child": []
   },
@@ -9847,7 +9830,8 @@
     "englishName": "Frostmoon Enclave",
     "pinyin": "shuangyuezhifang",
     "aliases": [
-      "syzf"
+      "syzf",
+      "霜月之子"
     ],
     "child": []
   },
@@ -9867,7 +9851,10 @@
     "englishName": "Kuuvahki Experimental Design Bureau",
     "pinyin": "yuejulishiyanshejiju",
     "aliases": [
-      "yjlsysjj"
+      "yjlsysjj",
+      "月矩力试验局",
+      "月矩力设计局",
+      "试验局"
     ],
     "child": []
   },
@@ -9930,17 +9917,10 @@
     "englishName": "Clink Clank Legion",
     "pinyin": "dinglingkuanglangjuntuan",
     "aliases": [
-      "dlkljt"
+      "dlkljt",
+      "叮铃咣啷军团",
+      "叮铃咣啷"
     ],
-    "child": [
-      {
-        "id": 206,
-        "name": "赋能"
-      },
-      {
-        "id": 206,
-        "name": "赋能"
-      }
-    ]
+    "child": []
   }
 ]
