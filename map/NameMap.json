@@ -9732,7 +9732,10 @@
     "aliases": [
       "jyrylbj",
       "绒翼龙王",
-      "大绒翼龙"
+      "大绒翼龙",
+      "火鸡",
+      "火鸟",
+      "firebird"
     ],
     "child": [
       {
@@ -9864,7 +9867,9 @@
     "englishName": "Elemental Transfiguration: Superconduct Blessing",
     "pinyin": "yuansuhuanbian：chaodaozhuyou",
     "aliases": [
-      "yshb：cdzy"
+      "yshbcdzy",
+      "cdzy",
+      "超导助佑"
     ],
     "child": [
       {
@@ -9883,7 +9888,9 @@
     "englishName": "Elemental Transfiguration: Vaporize Blessing",
     "pinyin": "yuansuhuanbian：zhengfazhuyou",
     "aliases": [
-      "yshb：zfzy"
+      "yshbzfzy",
+      "zfzy",
+      "蒸发助佑"
     ],
     "child": [
       {
