@@ -14,9 +14,11 @@
 
 jule prompt示例：对NameMap.json中「名字是“饕噬尽吞”，ID为227041」的卡牌别名信息，增加alias别名：「胖猫天赋」
 
-### 增加beta版本的新卡
+### 增加含自定义描述的新卡
 
-在本仓库的[Actions](https://github.com/genius-invokation/nonebot_plugin_7s_card_img/actions)中执行workFlow  `Generate Beta Template` 
+参考 workFlow  `Generate Something Template` 。 修改相关内容。
+
+在本仓库的[Actions](https://github.com/genius-invokation/nonebot_plugin_7s_card_img/actions)中执行
 
 然后，jule prompt示例：
 ```
@@ -34,7 +36,7 @@ jule在完成任务后，请您提交pr，然后联系嘟嘟可进行approve。
 
 直接在`NameMap.json`里修改对应卡牌的aliases属性。
 
-### 增加beta版本的新卡
+### 增加含自定义描述版本的新卡
 
 请先生成带有新卡的模板。
 ```
