@@ -9686,7 +9686,8 @@
     "englishName": "Ineffa",
     "pinyin": "yiniefu",
     "aliases": [
-      "ynf"
+      "ynf",
+      "机娘"
     ],
     "child": [
       {
@@ -9698,8 +9699,8 @@
         "name": "涤净模式·稳态载频"
       },
       {
-        "id": 203,
-        "name": "护盾"
+        "id": 205,
+        "name": "雷暴云"
       },
       {
         "id": 114171,
@@ -9708,10 +9709,6 @@
       {
         "id": 14173,
         "name": "至高律令·全域扫灭"
-      },
-      {
-        "id": 114171,
-        "name": "薇尔琪塔"
       },
       {
         "id": 14174,
@@ -9733,7 +9730,12 @@
     "englishName": "",
     "pinyin": "jinyanrongyilongbaojun",
     "aliases": [
-      "jyrylbj"
+      "jyrylbj",
+      "绒翼龙王",
+      "大绒翼龙",
+      "火鸡",
+      "火鸟",
+      "firebird"
     ],
     "child": [
       {
@@ -9751,10 +9753,6 @@
       {
         "id": 23063,
         "name": "金焰爆轰"
-      },
-      {
-        "id": 123061,
-        "name": "金焰形态"
       },
       {
         "id": 23064,
@@ -9777,14 +9775,6 @@
     ],
     "child": [
       {
-        "id": 111171,
-        "name": "灵风"
-      },
-      {
-        "id": 111174,
-        "name": "侦明"
-      },
-      {
         "id": 111175,
         "name": "速射牵制"
       }
@@ -9797,7 +9787,8 @@
     "pinyin": "xunhuanzhengliuyinqing",
     "aliases": [
       "xhzlyq",
-      "伊涅芙天赋"
+      "伊涅芙天赋",
+      "机娘天赋"
     ],
     "child": []
   },
@@ -9807,19 +9798,12 @@
     "englishName": "Flamelord's Blessing",
     "pinyin": "「yanzhuzhizhu」",
     "aliases": [
-      "「yzzz」",
-      "金焰绒翼龙暴君天赋"
+      "yzzz",
+      "金焰绒翼龙暴君天赋",
+      "绒翼龙天赋",
+      "金焰天赋"
     ],
-    "child": [
-      {
-        "id": 123061,
-        "name": "金焰形态"
-      },
-      {
-        "id": 123061,
-        "name": "金焰形态"
-      }
-    ]
+    "child": []
   },
   {
     "id": 321035,
@@ -9837,7 +9821,9 @@
     "englishName": "Tideseal Stone",
     "pinyin": "xiyinshi",
     "aliases": [
-      "xys"
+      "xys",
+      "狂猎",
+      "封印石"
     ],
     "child": []
   },
@@ -9847,7 +9833,8 @@
     "englishName": "Frostmoon Enclave",
     "pinyin": "shuangyuezhifang",
     "aliases": [
-      "syzf"
+      "syzf",
+      "霜月之子"
     ],
     "child": []
   },
@@ -9867,7 +9854,10 @@
     "englishName": "Kuuvahki Experimental Design Bureau",
     "pinyin": "yuejulishiyanshejiju",
     "aliases": [
-      "yjlsysjj"
+      "yjlsysjj",
+      "月矩力试验局",
+      "月矩力设计局",
+      "试验局"
     ],
     "child": []
   },
@@ -9877,7 +9867,12 @@
     "englishName": "Elemental Transfiguration: Superconduct Blessing",
     "pinyin": "yuansuhuanbian：chaodaozhuyou",
     "aliases": [
-      "yshb：cdzy"
+      "yshbcdzy",
+      "cdzy",
+      "超导助佑",
+      "超导幻变",
+      "极寒",
+      "电冲"
     ],
     "child": [
       {
@@ -9896,7 +9891,12 @@
     "englishName": "Elemental Transfiguration: Vaporize Blessing",
     "pinyin": "yuansuhuanbian：zhengfazhuyou",
     "aliases": [
-      "yshb：zfzy"
+      "yshbzfzy",
+      "zfzy",
+      "蒸发助佑",
+      "蒸发幻变",
+      "狂浪",
+      "炽燃"
     ],
     "child": [
       {
@@ -9930,17 +9930,274 @@
     "englishName": "Clink Clank Legion",
     "pinyin": "dinglingkuanglangjuntuan",
     "aliases": [
-      "dlkljt"
+      "dlkljt",
+      "叮铃咣啷军团",
+      "叮铃咣啷",
+      "叮铃哐当"
+    ],
+    "child": []
+  },
+  {
+    "id": 1215,
+    "name": "塔利雅",
+    "englishName": "Dahlia",
+    "pinyin": "taliya",
+    "aliases": [
+      "tly"
     ],
     "child": [
       {
-        "id": 206,
-        "name": "赋能"
+        "id": 12151,
+        "name": "西风剑术·祭仪"
       },
       {
-        "id": 206,
-        "name": "赋能"
+        "id": 12152,
+        "name": "圣浸的礼典"
+      },
+      {
+        "id": 112152,
+        "name": "雾雨秘迹"
+      },
+      {
+        "id": 12153,
+        "name": "纯耀的祷咏"
+      },
+      {
+        "id": 203,
+        "name": "护盾"
+      },
+      {
+        "id": 112151,
+        "name": "西风之眷"
+      },
+      {
+        "id": 203,
+        "name": "护盾"
       }
     ]
+  },
+  {
+    "id": 1216,
+    "name": "爱诺",
+    "englishName": "Aino",
+    "pinyin": "ainuo",
+    "aliases": [
+      "an"
+    ],
+    "child": [
+      {
+        "id": 12161,
+        "name": "敲打修理法"
+      },
+      {
+        "id": 12162,
+        "name": "妙思捕手"
+      },
+      {
+        "id": 170,
+        "name": "敏捷切换"
+      },
+      {
+        "id": 12163,
+        "name": "精密水冷仪"
+      },
+      {
+        "id": 112161,
+        "name": "冷静一下鸭"
+      },
+      {
+        "id": 12164,
+        "name": "模块式高效运作"
+      },
+      {
+        "id": 112161,
+        "name": "冷静一下鸭"
+      }
+    ]
+  },
+  {
+    "id": 2705,
+    "name": "圣骸牙兽",
+    "englishName": "Consecrated Fanged Beast",
+    "pinyin": "shenghaiyashou",
+    "aliases": [
+      "shys"
+    ],
+    "child": [
+      {
+        "id": 27051,
+        "name": "利爪猛击"
+      },
+      {
+        "id": 27052,
+        "name": "掠能绿波"
+      },
+      {
+        "id": 27053,
+        "name": "横生厄蔓"
+      },
+      {
+        "id": 27054,
+        "name": "亡骸饥渴"
+      }
+    ]
+  },
+  {
+    "id": 212151,
+    "name": "愿一切欢睦陪伴你",
+    "englishName": "You Shall Go Out With Joy",
+    "pinyin": "yuanyiqiehuanmupeibanni",
+    "aliases": [
+      "yyqhmpbn",
+      "塔利雅天赋"
+    ],
+    "child": [
+      {
+        "id": 112151,
+        "name": "西风之眷"
+      },
+      {
+        "id": 203,
+        "name": "护盾"
+      },
+      {
+        "id": 112151,
+        "name": "西风之眷"
+      }
+    ]
+  },
+  {
+    "id": 212161,
+    "name": "天才之为构造之责任",
+    "englishName": "The Burden of Creative Genius",
+    "pinyin": "tiancaizhiweigouzaozhizeren",
+    "aliases": [
+      "tczwgzzzr",
+      "爱诺天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 227051,
+    "name": "亡草蔽日",
+    "englishName": "Withered Reeds Eclipse the Sun",
+    "pinyin": "wangcaobiri",
+    "aliases": [
+      "wcbr",
+      "圣骸牙兽天赋"
+    ],
+    "child": []
+  },
+  {
+    "id": 311209,
+    "name": "罗网勾针",
+    "englishName": "Snare Hook",
+    "pinyin": "luowanggouzhen",
+    "aliases": [
+      "lwgz"
+    ],
+    "child": []
+  },
+  {
+    "id": 313010,
+    "name": "膨膨兽",
+    "englishName": "Blubberbeast",
+    "pinyin": "pengpengshou",
+    "aliases": [
+      "pps"
+    ],
+    "child": []
+  },
+  {
+    "id": 321040,
+    "name": "层岩巨渊",
+    "englishName": "The Chasm",
+    "pinyin": "cengyanjuyuan",
+    "aliases": [
+      "cyjy"
+    ],
+    "child": []
+  },
+  {
+    "id": 322033,
+    "name": "乐平波琳",
+    "englishName": "Lepine-Pauline",
+    "pinyin": "lepingbolin",
+    "aliases": [
+      "lpbl"
+    ],
+    "child": []
+  },
+  {
+    "id": 331006,
+    "name": "元素幻变：绽放祝佑",
+    "englishName": "Elemental Transfiguration: Bloom Blessing",
+    "pinyin": "yuansuhuanbian：zhanfangzhuyou",
+    "aliases": [
+      "yshb：zfzy"
+    ],
+    "child": [
+      {
+        "id": 303061,
+        "name": "绽放祝佑·甘露"
+      },
+      {
+        "id": 303062,
+        "name": "绽放祝佑·蔓生"
+      }
+    ]
+  },
+  {
+    "id": 331007,
+    "name": "元素幻变：火岩祝佑",
+    "englishName": "Elemental Transfiguration: Lava Blessing",
+    "pinyin": "yuansuhuanbian：huoyanzhuyou",
+    "aliases": [
+      "yshb：hyzy"
+    ],
+    "child": [
+      {
+        "id": 303071,
+        "name": "火岩祝佑·回火"
+      },
+      {
+        "id": 303072,
+        "name": "火岩祝佑·重熔"
+      },
+      {
+        "id": 203,
+        "name": "护盾"
+      }
+    ]
+  },
+  {
+    "id": 331721,
+    "name": "月兆·满辉",
+    "englishName": "Moonsign: Ascendant Gleam",
+    "pinyin": "yuezhao·manhui",
+    "aliases": [
+      "yz·mh"
+    ],
+    "child": []
+  },
+  {
+    "id": 331807,
+    "name": "月与故乡",
+    "englishName": "Moon and Homeland",
+    "pinyin": "yueyuguxiang",
+    "aliases": [
+      "yygx"
+    ],
+    "child": []
+  },
+  {
+    "id": 332062,
+    "name": "清扫时间",
+    "englishName": "Cleaning Time",
+    "pinyin": "qingsaoshijian",
+    "aliases": [
+      "qssj"
+    ],
+    "child": []
   }
 ]
