@@ -7745,7 +7745,8 @@
     "pinyin": "yuansugongming：manshengzhicao",
     "aliases": [
       "草共鸣",
-      "ysgmmszc"
+      "ysgmmszc",
+      "蔓生"
     ],
     "child": []
   },
@@ -9943,7 +9944,8 @@
     "englishName": "Dahlia",
     "pinyin": "taliya",
     "aliases": [
-      "tly"
+      "tly",
+      "助祭"
     ],
     "child": [
       {
@@ -9963,17 +9965,9 @@
         "name": "纯耀的祷咏"
       },
       {
-        "id": 203,
-        "name": "护盾"
-      },
-      {
         "id": 112151,
         "name": "西风之眷"
       },
-      {
-        "id": 203,
-        "name": "护盾"
-      }
     ]
   },
   {
@@ -9994,10 +9988,6 @@
         "name": "妙思捕手"
       },
       {
-        "id": 170,
-        "name": "敏捷切换"
-      },
-      {
         "id": 12163,
         "name": "精密水冷仪"
       },
@@ -10008,10 +9998,6 @@
       {
         "id": 12164,
         "name": "模块式高效运作"
-      },
-      {
-        "id": 112161,
-        "name": "冷静一下鸭"
       }
     ]
   },
@@ -10021,7 +10007,10 @@
     "englishName": "Consecrated Fanged Beast",
     "pinyin": "shenghaiyashou",
     "aliases": [
-      "shys"
+      "shys",
+      "草圣骸兽",
+      "草虎",
+      "草豹"
     ],
     "child": [
       {
@@ -10039,6 +10028,10 @@
       {
         "id": 27054,
         "name": "亡骸饥渴"
+      },
+      {
+        "id": 27055,
+        "name": "催萌腐草"
       }
     ]
   },
@@ -10051,20 +10044,7 @@
       "yyqhmpbn",
       "塔利雅天赋"
     ],
-    "child": [
-      {
-        "id": 112151,
-        "name": "西风之眷"
-      },
-      {
-        "id": 203,
-        "name": "护盾"
-      },
-      {
-        "id": 112151,
-        "name": "西风之眷"
-      }
-    ]
+    "child": []
   },
   {
     "id": 212161,
@@ -10124,9 +10104,66 @@
     "englishName": "Lepine-Pauline",
     "pinyin": "lepingbolin",
     "aliases": [
-      "lpbl"
+      "lpbl",
+      "投资",
+      "投资计划",
+      "医疗器材",
+      "图形对抗",
+      "能量机关",
+      "大计划",
+      "特大计划",
+      "超级大计划"
     ],
-    "child": []
+    "child": [
+      {
+        "id": 302220,
+        "name": "医疗器材投资·大计划"
+      },
+      {
+        "id": 302221,
+        "name": "医疗器材投资·特大计划"
+      },
+      {
+        "id": 302222,
+        "name": "医疗器材投资·超级大计划"
+      },
+      {
+        "id": 302223,
+        "name": "图形对抗投资·大计划"
+      },
+      {
+        "id": 302224,
+        "name": "图形对抗投资·特大计划"
+      },
+      {
+        "id": 302225,
+        "name": "图形对抗投资·超级大计划"
+      },
+      {
+        "id": 302226,
+        "name": "能量机关投资·大计划"
+      },
+      {
+        "id": 302227,
+        "name": "能量机关投资·特大计划"
+      },
+      {
+        "id": 302228,
+        "name": "能量机关投资·超级大计划"
+      },
+      {
+        "id": 302229,
+        "name": "乐平波琳的医疗器材投资"
+      },
+      {
+        "id": 302230,
+        "name": "乐平波琳的图形对抗投资"
+      },
+      {
+        "id": 302231,
+        "name": "乐平波琳的能量机关投资"
+      }
+    ]
   },
   {
     "id": 331006,
@@ -10134,7 +10171,12 @@
     "englishName": "Elemental Transfiguration: Bloom Blessing",
     "pinyin": "yuansuhuanbian：zhanfangzhuyou",
     "aliases": [
-      "yshb：zfzy"
+      "yshbzfzy",
+      "zfzy",
+      "绽放祝佑",
+      "绽放幻变",
+      "甘露",
+      "蔓生"
     ],
     "child": [
       {
@@ -10153,7 +10195,12 @@
     "englishName": "Elemental Transfiguration: Lava Blessing",
     "pinyin": "yuansuhuanbian：huoyanzhuyou",
     "aliases": [
-      "yshb：hyzy"
+      "yshbhyzy",
+      "hyzy",
+      "火岩祝佑",
+      "火岩幻变",
+      "回火",
+      "重熔"
     ],
     "child": [
       {
@@ -10163,10 +10210,6 @@
       {
         "id": 303072,
         "name": "火岩祝佑·重熔"
-      },
-      {
-        "id": 203,
-        "name": "护盾"
       }
     ]
   },
@@ -10176,7 +10219,9 @@
     "englishName": "Moonsign: Ascendant Gleam",
     "pinyin": "yuezhao·manhui",
     "aliases": [
-      "yz·mh"
+      "yzmh",
+      "月兆共鸣",
+      "月共鸣",
     ],
     "child": []
   },
@@ -10186,7 +10231,10 @@
     "englishName": "Moon and Homeland",
     "pinyin": "yueyuguxiang",
     "aliases": [
-      "yygx"
+      "yygx",
+      "月与乐园",
+      "挪德卡莱共鸣",
+      "挪德共鸣"
     ],
     "child": []
   },
